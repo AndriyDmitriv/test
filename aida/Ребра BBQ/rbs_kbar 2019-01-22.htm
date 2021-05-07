@@ -1,0 +1,2108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" CONTENT="AIDA64 v5.99.4900">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=Windows-1251">
+<STYLE>
+#reportmenu > ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ position: fixed;
+ display: block;
+ top: 5px;
+ right: 20%;
+ z-index: 100;
+}
+#reportmenu > ul li {
+ display: block;
+ position: relative;
+ margin: 0;
+ padding: 0;
+ min-width: 150px;
+}
+#reportmenu > ul li a {
+font: 80% verdana, tahoma, ms sans serif, arial; color: #000000;
+ display: block;
+ position: relative;
+ min-width: 130px;
+ min-height: 18px;
+ padding: 6px 20px;
+ border-bottom: 1px solid #9fcaeb;
+ color: #fff;
+ text-decoration: none;
+ background: #65a3d3;
+}
+#reportmenu > ul li>a:hover, #reportmenu > ul li:hover>a {
+ color: #fff;
+ background: #a3d4ed;
+ border-color: transparent;
+}
+#reportmenu > ul .has-sub>a::after {
+ content: '';
+ position: absolute;
+ top: 13px;
+ right: 10px;
+ width: 0px;
+ height: 0px;
+ border: 4px solid transparent;
+ border-left: 4px solid #fff;
+}
+#reportmenu > ul .top-menu>a::after {
+ content: '';
+ position: absolute;
+ top: 13px;
+ right: 10px;
+ width: 0px;
+ height: 0px;
+ border: 4px solid transparent;
+ border-top: 4px solid #fff;
+}
+#reportmenu > ul ul {
+ position: absolute;
+ left: 100%;
+ top: -9999px;
+ padding-left: 0;
+ xborder-left: 5px solid #fff;
+ opacity: 0;
+ z-index:100;
+ -webkit-transition: opacity .3s ease-in;
+ -moz-transition: opacity .3s ease-in;
+ -o-transition: opacity .3s ease-in;
+ -ms-transition: opacity .3s ease-in;
+}
+#reportmenu ul ul ul {
+ border-left: 5px solid #fff;
+}
+#reportmenu ul.submenu {
+ left: 0;
+}
+#reportmenu li:hover>ul.submenu {
+ top: 0;
+ opacity: 1;
+ border-top: 4px solid white;
+ position: relative;
+}
+#reportmenu > ul li:hover>ul {
+ top: 0px;
+ opacity: 1;
+}
+#reportmenu > ul li:first-child>a {
+ border-top-left-radius: 4px;
+ border-top-right-radius: 4px;
+ border-top: 0;
+}
+#reportmenu > ul li:last-child>a {
+ border-bottom-left-radius: 4px;
+ border-bottom-right-radius: 4px;
+ border-bottom: 0;
+}
+A { text-decoration: none }
+A:hover { text-decoration: underline }
+TD { font: 80% verdana, tahoma, ms sans serif, arial; color: #000000; vertical-align: text-center; text-align: left }
+TD.cr { font: 80% verdana, tahoma, ms sans serif, arial; color: #000000; vertical-align: text-center; text-align: right }
+TD.cc { font: 80% verdana, tahoma, ms sans serif, arial; color: #000000; vertical-align: text-center; text-align: center }
+TD.pt { font: bold 140% verdana, tahoma, ms sans serif, arial; color: #000080; vertical-align: text-center }
+TD.dt { font: bold 110% verdana, tahoma, ms sans serif, arial; color: #000080; vertical-align: text-center }
+.pc { border: 1px solid #b0bcc8; width:129px }
+.bar   { padding: 2px 0 }
+.bar.r { background-color: #afddff }
+.bar.u { background-color: #94f5a3 }
+.bar.a { background-color: #f5e294 }
+.txt { font-size: 88%; padding: 0 3px }
+</STYLE>
+<TITLE>Отчёт: &lt;RBS_KBAR&gt;</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<div id="reportmenu"><ul><li class="top-menu" ><a href="#">Навигация</a><ul class="submenu"><li class="has-sub"><a href="#">Компьютер</a><ul><li><a href="#summary">Суммарная информаци</a></li><li><a href="#dmi">DMI</a></li></ul></li><li class="has-sub"><a href="#">Системная плата</a><ul><li><a href="#cpu">ЦП</a></li><li><a href="#cpuid">CPUID</a></li><li><a href="#motherboard">Системная плата</a></li><li><a href="#memory">Память</a></li><li><a href="#spd">SPD</a></li><li><a href="#chipset">Чипсет</a></li><li><a href="#bios">BIOS</a></li><li><a href="#acpi">ACPI</a></li></ul></li></ul></li></ul></div>
+
+<TABLE WIDTH=100%><TD CLASS=pt>AIDA64 Extreme<TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD><TD>
+<TR><TD><TD><TD>Версия&nbsp;&nbsp;<TD>AIDA64 v5.99.4900/ru
+<TR><TD><TD><TD>Тестовый модуль&nbsp;&nbsp;<TD>4.3.793-x32
+<TR><TD><TD><TD>Домашняя страница&nbsp;&nbsp;<TD><A HREF="http://www.aida64.com/" TARGET=blank>http://www.aida64.com/</A>
+<TR><TD><TD><TD>Тип отчёта&nbsp;&nbsp;<TD>Мастер отчётов
+<TR><TD><TD><TD>Компьютер&nbsp;&nbsp;<TD>RBS_KBAR
+<TR><TD><TD><TD>Генератор&nbsp;&nbsp;<TD>ups
+<TR><TD><TD><TD>Операционная система&nbsp;&nbsp;<TD>Microsoft Windows 7 Ultimate 6.1.7601.23915 (Win7 RTM)
+<TR><TD><TD><TD>Дата&nbsp;&nbsp;<TD>2019-01-22
+<TR><TD><TD><TD>Время&nbsp;&nbsp;<TD>14:32
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="summary">Суммарная информация</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD><TD COLSPAN=3><B>Компьютер:</B>
+<TR><TD><TD><TD><TD>Тип компьютера&nbsp;&nbsp;<TD>ACPI компьютер на базе x86
+<TR><TD><TD><TD><TD>Операционная система&nbsp;&nbsp;<TD><A HREF="http://www.microsoft.com/windows/" TARGET=blank TITLE="Microsoft Corporation">Microsoft Windows 7 Ultimate</A>
+<TR><TD><TD><TD><TD>Пакет обновления ОС&nbsp;&nbsp;<TD>Service Pack 1
+<TR><TD><TD><TD><TD>Internet Explorer&nbsp;&nbsp;<TD><A HREF="http://windows.microsoft.com/en-us/internet-explorer" TARGET=blank TITLE="Microsoft Corporation">11.0.9600.18837</A>
+<TR><TD><TD><TD><TD>DirectX&nbsp;&nbsp;<TD><A HREF="http://www.microsoft.com/windows/directx/" TARGET=blank TITLE="Microsoft Corporation">DirectX 11.1</A>
+<TR><TD><TD><TD><TD>Имя компьютера&nbsp;&nbsp;<TD>RBS_KBAR
+<TR><TD><TD><TD><TD>Имя пользователя&nbsp;&nbsp;<TD>ups
+<TR><TD><TD><TD><TD>Вход в домен&nbsp;&nbsp;<TD>RBS_KBAR
+<TR><TD><TD><TD><TD>Дата / Время&nbsp;&nbsp;<TD>2019-01-22 / 14:32
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Системная плата:</B>
+<TR><TD><TD><TD><TD>Тип ЦП&nbsp;&nbsp;<TD><A HREF="http://ark.intel.com/search.aspx?q=Intel%20Celeron%20N2807" TARGET=blank TITLE="Intel Corporation">DualCore Intel Celeron N2807, 2166 MHz (26 x 83)</A>
+<TR><TD><TD><TD><TD>Системная плата&nbsp;&nbsp;<TD>N/A PS-3316
+<TR><TD><TD><TD><TD>Чипсет системной платы&nbsp;&nbsp;<TD><A HREF="http://www.intel.com/products/chipsets" TARGET=blank TITLE="Intel Corporation">Intel Bay Trail-M</A>
+<TR><TD><TD><TD><TD>Системная память&nbsp;&nbsp;<TD>2967 МБ
+<TR><TD><TD><TD><TD>DIMM1: Kingston CBD16D3LS1KBG/4G&nbsp;&nbsp;<TD>4 ГБ DDR3-1600 DDR3 SDRAM  (11-11-11-28 @ 800 МГц)  (10-10-10-27 @ 761 МГц)  (9-9-9-24 @ 685 МГц)  (8-8-8-22 @ 609 МГц)  (7-7-7-19 @ 533 МГц)  (6-6-6-16 @ 457 МГц)  (5-5-5-14 @ 380 МГц)
+<TR><TD><TD><TD><TD>Тип BIOS&nbsp;&nbsp;<TD><A HREF="http://www.insydesw.com/products" TARGET=blank TITLE="Insyde Software Corp.">Insyde (02/10/2017)</A>
+<TR><TD><TD><TD><TD>Коммуникационный порт&nbsp;&nbsp;<TD>Последовательный порт (COM1)
+<TR><TD><TD><TD><TD>Коммуникационный порт&nbsp;&nbsp;<TD>Последовательный порт (COM2)
+<TR><TD><TD><TD><TD>Коммуникационный порт&nbsp;&nbsp;<TD>Последовательный порт (COM3)
+<TR><TD><TD><TD><TD>Коммуникационный порт&nbsp;&nbsp;<TD>Последовательный порт (COM4)
+<TR><TD><TD><TD><TD>Коммуникационный порт&nbsp;&nbsp;<TD>Последовательный порт (COM5)
+<TR><TD><TD><TD><TD>Коммуникационный порт&nbsp;&nbsp;<TD>AT91 USB to Serial Converter (COM6)
+<TR><TD><TD><TD><TD>Коммуникационный порт&nbsp;&nbsp;<TD>ECP-порт принтера (LPT1)
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Отображение:</B>
+<TR><TD><TD><TD><TD>Видеоадаптер&nbsp;&nbsp;<TD><A HREF="http://www.intel.com/products/chipsets" TARGET=blank TITLE="Intel Corporation">Intel(R) HD Graphics  (1322682 КБ)</A>
+<TR><TD><TD><TD><TD>Видеоадаптер&nbsp;&nbsp;<TD><A HREF="http://www.intel.com/products/chipsets" TARGET=blank TITLE="Intel Corporation">Intel(R) HD Graphics  (1322682 КБ)</A>
+<TR><TD><TD><TD><TD>3D-акселератор&nbsp;&nbsp;<TD><A HREF="http://www.intel.com/products/chipsets" TARGET=blank TITLE="Intel Corporation">Intel HD Graphics</A>
+<TR><TD><TD><TD><TD>Монитор&nbsp;&nbsp;<TD>CMN N156BGE-E42  [15.6" LCD]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Мультимедиа:</B>
+<TR><TD><TD><TD><TD>Звуковой адаптер&nbsp;&nbsp;<TD><A HREF="http://www.intel.com/products/chipsets" TARGET=blank TITLE="Intel Corporation">Intel Bay Trail HDMI @ Intel Bay Trail SoC - HD Audio Controller [C0]</A>
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Хранение данных:</B>
+<TR><TD><TD><TD><TD>IDE-контроллер&nbsp;&nbsp;<TD><A HREF="http://www.intel.com/products/chipsets" TARGET=blank TITLE="Intel Corporation">Intel(R) Atom(TM)/Celeron(R)/Pentium(R) Processor AHCI - 0F23</A>
+<TR><TD><TD><TD><TD>Дисковый накопитель&nbsp;&nbsp;<TD><A HREF="https://www.wdc.com/products/internal-storage.html" TARGET=blank TITLE="Western Digital Corporation">WDC WD5000LPCX-22VHAT0 ATA Device  (500 ГБ, 5400 RPM, SATA-III)</A>
+<TR><TD><TD><TD><TD>SMART-статус жёстких дисков&nbsp;&nbsp;<TD>OK
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Разделы:</B>
+<TR><TD><TD><TD><TD>C: (NTFS)&nbsp;&nbsp;<TD>99.9 ГБ (80.4 ГБ свободно)
+<TR><TD><TD><TD><TD>D: (NTFS)&nbsp;&nbsp;<TD>365.7 ГБ (365.2 ГБ свободно)
+<TR><TD><TD><TD><TD>Общий объём&nbsp;&nbsp;<TD>465.7 ГБ (445.6 ГБ свободно)
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Ввод:</B>
+<TR><TD><TD><TD><TD>Клавиатура&nbsp;&nbsp;<TD>Клавиатура HID
+<TR><TD><TD><TD><TD>Мышь&nbsp;&nbsp;<TD>HID-совместимая мышь
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Сеть:</B>
+<TR><TD><TD><TD><TD>Первичный адрес IP&nbsp;&nbsp;<TD>192.168.3.120
+<TR><TD><TD><TD><TD>Первичный адрес MAC&nbsp;&nbsp;<TD>00-19-17-81-37-9F
+<TR><TD><TD><TD><TD>Сетевой адаптер&nbsp;&nbsp;<TD><A HREF="http://www.realtek.com.tw/products/productsView.aspx?Langid=1&PNid=7&PFid=10&Level=3&Conn=2" TARGET=blank TITLE="Realtek Semiconductor Corp.">Realtek PCIe GBE Family Controller  (192.168.3.120)</A>
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Периферийные устройства:</B>
+<TR><TD><TD><TD><TD>Принтер&nbsp;&nbsp;<TD>Fax
+<TR><TD><TD><TD><TD>Принтер&nbsp;&nbsp;<TD>Microsoft XPS Document Writer
+<TR><TD><TD><TD><TD>Принтер&nbsp;&nbsp;<TD>rbs_kas
+<TR><TD><TD><TD><TD>Принтер&nbsp;&nbsp;<TD>rbs_kit
+<TR><TD><TD><TD><TD>Контроллер USB3&nbsp;&nbsp;<TD><A HREF="http://www.intel.com/products/chipsets" TARGET=blank TITLE="Intel Corporation">Intel Bay Trail SoC - USB 3.0 xHCI Host Controller [C0]</A>
+<TR><TD><TD><TD><TD>USB-устройство&nbsp;&nbsp;<TD>AT91 USB to Serial Converter (COM6)
+<TR><TD><TD><TD><TD>USB-устройство&nbsp;&nbsp;<TD>OMNIKEY 5x21
+<TR><TD><TD><TD><TD>USB-устройство&nbsp;&nbsp;<TD>USB-устройство ввода
+<TR><TD><TD><TD><TD>USB-устройство&nbsp;&nbsp;<TD>USB-устройство ввода
+<TR><TD><TD><TD><TD>USB-устройство&nbsp;&nbsp;<TD>Концентратор USB 2.0 MTT
+<TR><TD><TD><TD><TD>USB-устройство&nbsp;&nbsp;<TD>Концентратор USB 2.0 MTT
+<TR><TD><TD><TD><TD>USB-устройство&nbsp;&nbsp;<TD>Поддержка USB принтера
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>DMI:</B>
+<TR><TD><TD><TD><TD>DMI поставщик BIOS&nbsp;&nbsp;<TD><A HREF="http://www.insydesw.com/products" TARGET=blank TITLE="Insyde Software Corp.">INSYDE Corp.</A>
+<TR><TD><TD><TD><TD>DMI версия BIOS&nbsp;&nbsp;<TD>REV.E
+<TR><TD><TD><TD><TD>DMI производитель системы&nbsp;&nbsp;<TD>N/A
+<TR><TD><TD><TD><TD>DMI система&nbsp;&nbsp;<TD>PS-3316
+<TR><TD><TD><TD><TD>DMI системная версия&nbsp;&nbsp;<TD>B2E1101911
+<TR><TD><TD><TD><TD>DMI системный серийный номер&nbsp;&nbsp;<TD>PSH61169
+<TR><TD><TD><TD><TD>DMI системный UUID&nbsp;&nbsp;<TD>73837980-76708869-83787253-68657665
+<TR><TD><TD><TD><TD>DMI производитель системной платы&nbsp;&nbsp;<TD>N/A
+<TR><TD><TD><TD><TD>DMI системная плата&nbsp;&nbsp;<TD>PS-3316
+<TR><TD><TD><TD><TD>DMI версия системной платы&nbsp;&nbsp;<TD>B2
+<TR><TD><TD><TD><TD>DMI серийный номер системной платы&nbsp;&nbsp;<TD>H5DALA
+<TR><TD><TD><TD><TD>DMI производитель шасси&nbsp;&nbsp;<TD>Chassis Manufacturer
+<TR><TD><TD><TD><TD>DMI версия шасси&nbsp;&nbsp;<TD>Chassis Version
+<TR><TD><TD><TD><TD>DMI серийный номер шасси&nbsp;&nbsp;<TD>Chassis Serial Number
+<TR><TD><TD><TD><TD>DMI Asset-тег шасси&nbsp;&nbsp;<TD>Chassis Asset Tag
+<TR><TD><TD><TD><TD>DMI тип шасси&nbsp;&nbsp;<TD>Notebook
+<TR><TD><TD><TD><TD>DMI всего / свободных сокетов памяти&nbsp;&nbsp;<TD>2 / 1
+</TABLE><BR><BR>
+
+<!-- SW --><TABLE WIDTH=100%><TD CLASS=pt><A NAME="computer name">Имя компьютера</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD><TD><TD>
+<TR><TD><TD><TD><B>Тип</B>&nbsp;&nbsp;<TD CLASS=cc><B>Класс</B>&nbsp;&nbsp;<TD><B>Имя компьютера</B>
+<TR><TD><TD><TD>Комментарий о компьютере&nbsp;&nbsp;<TD CLASS=cc>Логический&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>Имя NetBIOS&nbsp;&nbsp;<TD CLASS=cc>Логический&nbsp;&nbsp;<TD>RBS_KBAR
+<TR><TD><TD><TD>Имя хоста DNS&nbsp;&nbsp;<TD CLASS=cc>Логический&nbsp;&nbsp;<TD>rbs_kbar
+<TR><TD><TD><TD>Имя домена DNS&nbsp;&nbsp;<TD CLASS=cc>Логический&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>Полное имя DNS&nbsp;&nbsp;<TD CLASS=cc>Логический&nbsp;&nbsp;<TD>rbs_kbar
+<TR><TD><TD><TD>Имя NetBIOS&nbsp;&nbsp;<TD CLASS=cc>Физический&nbsp;&nbsp;<TD>RBS_KBAR
+<TR><TD><TD><TD>Имя хоста DNS&nbsp;&nbsp;<TD CLASS=cc>Физический&nbsp;&nbsp;<TD>rbs_kbar
+<TR><TD><TD><TD>Имя домена DNS&nbsp;&nbsp;<TD CLASS=cc>Физический&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>Полное имя DNS&nbsp;&nbsp;<TD CLASS=cc>Физический&nbsp;&nbsp;<TD>rbs_kbar
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="dmi">DMI</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD CLASS=dt COLSPAN=5>[ BIOS ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства BIOS:</B>
+<TR><TD><TD><TD><TD>Производитель&nbsp;&nbsp;<TD>INSYDE Corp.
+<TR><TD><TD><TD><TD>Версия&nbsp;&nbsp;<TD>REV.E
+<TR><TD><TD><TD><TD>Дата выпуска&nbsp;&nbsp;<TD>02/10/2017
+<TR><TD><TD><TD><TD>Размер&nbsp;&nbsp;<TD>3 МБ
+<TR><TD><TD><TD><TD>Версия BIOS системы&nbsp;&nbsp;<TD>162.186
+<TR><TD><TD><TD><TD>Версия прошивки встроенного контроллера&nbsp;&nbsp;<TD>0.0
+<TR><TD><TD><TD><TD>Загрузочные устройства&nbsp;&nbsp;<TD>Floppy Disk, Hard Disk, CD-ROM, ATAPI ZIP
+<TR><TD><TD><TD><TD>Возможности&nbsp;&nbsp;<TD>Flash BIOS, Shadow BIOS, Selectable Boot, Network Service Boot, EDD, BBS
+<TR><TD><TD><TD><TD>Поддерживаемые стандарты&nbsp;&nbsp;<TD>DMI, ACPI, UEFI
+<TR><TD><TD><TD><TD>Возможности расширения&nbsp;&nbsp;<TD>PCI, USB
+<TR><TD><TD><TD><TD>Виртуальная машина&nbsp;&nbsp;<TD>Нет
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Производитель BIOS:</B>
+<TR><TD><TD><TD><TD>Фирма&nbsp;&nbsp;<TD>Insyde Software Corp.
+<TR><TD><TD><TD><TD>Информация о продукте&nbsp;&nbsp;<TD><A HREF="http://www.insydesw.com/products" TARGET=blank>http://www.insydesw.com/products</A>
+<TR><TD><TD><TD><TD>Модернизации BIOS&nbsp;&nbsp;<TD><A HREF="http://www.aida64.com/bios-updates" TARGET=blank>http://www.aida64.com/bios-updates</A>
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Система ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства системы:</B>
+<TR><TD><TD><TD><TD>Производитель&nbsp;&nbsp;<TD>N/A
+<TR><TD><TD><TD><TD>Продукт&nbsp;&nbsp;<TD>PS-3316
+<TR><TD><TD><TD><TD>Версия&nbsp;&nbsp;<TD>B2E1101911
+<TR><TD><TD><TD><TD>Серийный номер&nbsp;&nbsp;<TD>PSH61169
+<TR><TD><TD><TD><TD>SKU#&nbsp;&nbsp;<TD>Type1 - SKU0
+<TR><TD><TD><TD><TD>Семейство&nbsp;&nbsp;<TD>Type1 - Family
+<TR><TD><TD><TD><TD>Универсальный уникальный ID&nbsp;&nbsp;<TD>73837980-76708869-83787253-68657665
+<TR><TD><TD><TD><TD>Тип пробуждения&nbsp;&nbsp;<TD>Выключение питания
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Системная плата ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства системной платы:</B>
+<TR><TD><TD><TD><TD>Производитель&nbsp;&nbsp;<TD>N/A
+<TR><TD><TD><TD><TD>Продукт&nbsp;&nbsp;<TD>PS-3316
+<TR><TD><TD><TD><TD>Версия&nbsp;&nbsp;<TD>B2
+<TR><TD><TD><TD><TD>Серийный номер&nbsp;&nbsp;<TD>H5DALA
+<TR><TD><TD><TD><TD>Тег имущества&nbsp;&nbsp;<TD>Type2 - Board Asset Tag
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Шасси ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства шасси:</B>
+<TR><TD><TD><TD><TD>Производитель&nbsp;&nbsp;<TD>Chassis Manufacturer
+<TR><TD><TD><TD><TD>Версия&nbsp;&nbsp;<TD>Chassis Version
+<TR><TD><TD><TD><TD>Серийный номер&nbsp;&nbsp;<TD>Chassis Serial Number
+<TR><TD><TD><TD><TD>Тег имущества&nbsp;&nbsp;<TD>Chassis Asset Tag
+<TR><TD><TD><TD><TD>Тип шасси&nbsp;&nbsp;<TD>Notebook
+<TR><TD><TD><TD><TD>Состояние загрузки ОС&nbsp;&nbsp;<TD>Безопасный
+<TR><TD><TD><TD><TD>Состояние источника питания&nbsp;&nbsp;<TD>Безопасный
+<TR><TD><TD><TD><TD>Температурное состояние&nbsp;&nbsp;<TD>Безопасный
+<TR><TD><TD><TD><TD>Состояние безопасности&nbsp;&nbsp;<TD>Нет
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Процессоры / Intel(R) Celeron(R) CPU N2807 @ 1.58GHz ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства процессора:</B>
+<TR><TD><TD><TD><TD>Производитель&nbsp;&nbsp;<TD>Intel(R) Corporation
+<TR><TD><TD><TD><TD>Версия&nbsp;&nbsp;<TD>Intel(R) Celeron(R) CPU N2807 @ 1.58GHz
+<TR><TD><TD><TD><TD>Внешняя частота&nbsp;&nbsp;<TD>83 МГц
+<TR><TD><TD><TD><TD>Максимальная частота&nbsp;&nbsp;<TD>2166 МГц
+<TR><TD><TD><TD><TD>Текущая частота&nbsp;&nbsp;<TD>1591 МГц
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>Central Processor
+<TR><TD><TD><TD><TD>Напряжение питания&nbsp;&nbsp;<TD>0.7 V
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD><TD><TD><TD>Установка&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Тип разъёма&nbsp;&nbsp;<TD>CPU 1
+<TR><TD><TD><TD><TD>HTT / CMP Units&nbsp;&nbsp;<TD>0 / 2
+<TR><TD><TD><TD><TD>Возможности&nbsp;&nbsp;<TD>64-bit, Multi-Core, Execute Protection, Enhanced Virtualization, Power/Performance Control
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Производитель ЦП:</B>
+<TR><TD><TD><TD><TD>Фирма&nbsp;&nbsp;<TD>Intel Corporation
+<TR><TD><TD><TD><TD>Информация о продукте&nbsp;&nbsp;<TD><A HREF="http://ark.intel.com/search.aspx?q=Intel%20Celeron%20N2807" TARGET=blank>http://ark.intel.com/search.aspx?q=Intel%20Celeron%20N2807</A>
+<TR><TD><TD><TD><TD>Обновление драйверов&nbsp;&nbsp;<TD><A HREF="http://www.aida64.com/driver-updates" TARGET=blank>http://www.aida64.com/driver-updates</A>
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Кэш-память / L1 Cache ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства кэша:</B>
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>Данные
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD><TD><TD><TD>Режим работы&nbsp;&nbsp;<TD>Write-Back
+<TR><TD><TD><TD><TD>Ассоциативность&nbsp;&nbsp;<TD>Fully Associative
+<TR><TD><TD><TD><TD>Максимальный объём&nbsp;&nbsp;<TD>48 КБ
+<TR><TD><TD><TD><TD>Установленный объём&nbsp;&nbsp;<TD>48 КБ
+<TR><TD><TD><TD><TD>Поддерживаемый тип SRAM&nbsp;&nbsp;<TD>Synchronous
+<TR><TD><TD><TD><TD>Текущий тип SRAM&nbsp;&nbsp;<TD>Synchronous
+<TR><TD><TD><TD><TD>Коррекция ошибок&nbsp;&nbsp;<TD>Single-bit ECC
+<TR><TD><TD><TD><TD>Тип разъёма&nbsp;&nbsp;<TD>Кэш L1
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Кэш-память / L1 Cache ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства кэша:</B>
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>Instruction
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD><TD><TD><TD>Режим работы&nbsp;&nbsp;<TD>Write-Back
+<TR><TD><TD><TD><TD>Ассоциативность&nbsp;&nbsp;<TD>8-way Set-Associative
+<TR><TD><TD><TD><TD>Максимальный объём&nbsp;&nbsp;<TD>64 КБ
+<TR><TD><TD><TD><TD>Установленный объём&nbsp;&nbsp;<TD>64 КБ
+<TR><TD><TD><TD><TD>Поддерживаемый тип SRAM&nbsp;&nbsp;<TD>Synchronous
+<TR><TD><TD><TD><TD>Текущий тип SRAM&nbsp;&nbsp;<TD>Synchronous
+<TR><TD><TD><TD><TD>Коррекция ошибок&nbsp;&nbsp;<TD>Single-bit ECC
+<TR><TD><TD><TD><TD>Тип разъёма&nbsp;&nbsp;<TD>Кэш L1
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Кэш-память / L2 Cache ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства кэша:</B>
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>Unified
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD><TD><TD><TD>Режим работы&nbsp;&nbsp;<TD>Write-Back
+<TR><TD><TD><TD><TD>Ассоциативность&nbsp;&nbsp;<TD>16-way Set-Associative
+<TR><TD><TD><TD><TD>Максимальный объём&nbsp;&nbsp;<TD>1 МБ
+<TR><TD><TD><TD><TD>Установленный объём&nbsp;&nbsp;<TD>1 МБ
+<TR><TD><TD><TD><TD>Поддерживаемый тип SRAM&nbsp;&nbsp;<TD>Synchronous
+<TR><TD><TD><TD><TD>Текущий тип SRAM&nbsp;&nbsp;<TD>Synchronous
+<TR><TD><TD><TD><TD>Коррекция ошибок&nbsp;&nbsp;<TD>Single-bit ECC
+<TR><TD><TD><TD><TD>Тип разъёма&nbsp;&nbsp;<TD>Кэш L2
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Массивы памяти / System Memory ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства массива памяти:</B>
+<TR><TD><TD><TD><TD>Размещение&nbsp;&nbsp;<TD>Системная плата
+<TR><TD><TD><TD><TD>Функция массива памяти&nbsp;&nbsp;<TD>Системная память
+<TR><TD><TD><TD><TD>Коррекция ошибок&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Макс. объём памяти&nbsp;&nbsp;<TD>8 ГБ
+<TR><TD><TD><TD><TD>Устройства памяти&nbsp;&nbsp;<TD>2
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Модули памяти / DIMM0 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства модуля памяти:</B>
+<TR><TD><TD><TD><TD>Тип разъёма&nbsp;&nbsp;<TD>DIMM0
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>DIMM
+<TR><TD><TD><TD><TD>Установленный объём&nbsp;&nbsp;<TD>4096 МБ
+<TR><TD><TD><TD><TD>Допустимый объём&nbsp;&nbsp;<TD>4096 МБ
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Модули памяти / DIMM1 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства модуля памяти:</B>
+<TR><TD><TD><TD><TD>Тип разъёма&nbsp;&nbsp;<TD>DIMM1
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>DIMM
+<TR><TD><TD><TD><TD>Установленный объём&nbsp;&nbsp;<TD>Не установлено
+<TR><TD><TD><TD><TD>Допустимый объём&nbsp;&nbsp;<TD>Не установлено
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Устройства памяти / DIMM0 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства устройства памяти:</B>
+<TR><TD><TD><TD><TD>Форм-фактор&nbsp;&nbsp;<TD>SODIMM
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>DDR3
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>Synchronous
+<TR><TD><TD><TD><TD>Размер&nbsp;&nbsp;<TD>4 ГБ
+<TR><TD><TD><TD><TD>Макс. частота&nbsp;&nbsp;<TD>1333 MT/s
+<TR><TD><TD><TD><TD>Текущая частота&nbsp;&nbsp;<TD>1333 MT/s
+<TR><TD><TD><TD><TD>Общая ширина&nbsp;&nbsp;<TD>64 бит
+<TR><TD><TD><TD><TD>Ширина данных&nbsp;&nbsp;<TD>64 бит
+<TR><TD><TD><TD><TD>Мин. напряжение&nbsp;&nbsp;<TD>1.500 V
+<TR><TD><TD><TD><TD>Макс. напряжение&nbsp;&nbsp;<TD>1.500 V
+<TR><TD><TD><TD><TD>Размещение&nbsp;&nbsp;<TD>DIMM0
+<TR><TD><TD><TD><TD>Банк&nbsp;&nbsp;<TD>BANK 0
+<TR><TD><TD><TD><TD>Производитель&nbsp;&nbsp;<TD>Kingston
+<TR><TD><TD><TD><TD>Серийный номер&nbsp;&nbsp;<TD>073A230E
+<TR><TD><TD><TD><TD>Тег имущества&nbsp;&nbsp;<TD>Неизвестно
+<TR><TD><TD><TD><TD>Шифр компонента&nbsp;&nbsp;<TD>CBD16D3LS1KBG/4G
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Устройства памяти / DIMM1 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства устройства памяти:</B>
+<TR><TD><TD><TD><TD>Форм-фактор&nbsp;&nbsp;<TD>SODIMM
+<TR><TD><TD><TD><TD>Текущая частота&nbsp;&nbsp;<TD>1333 MT/s
+<TR><TD><TD><TD><TD>Размещение&nbsp;&nbsp;<TD>DIMM1
+<TR><TD><TD><TD><TD>Банк&nbsp;&nbsp;<TD>BANK 1
+<TR><TD><TD><TD><TD>Тег имущества&nbsp;&nbsp;<TD>Неизвестно
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Системные разъёмы / J5C1 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства системного разъёма:</B>
+<TR><TD><TD><TD><TD>Назначение разъёма&nbsp;&nbsp;<TD>J5C1
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>PCI-E x4
+<TR><TD><TD><TD><TD>Использование&nbsp;&nbsp;<TD>Пусто
+<TR><TD><TD><TD><TD>Ширина шины данных&nbsp;&nbsp;<TD>x4
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Системные разъёмы / J4B3 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства системного разъёма:</B>
+<TR><TD><TD><TD><TD>Назначение разъёма&nbsp;&nbsp;<TD>J4B3
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>PCI-E x1
+<TR><TD><TD><TD><TD>Использование&nbsp;&nbsp;<TD>Пусто
+<TR><TD><TD><TD><TD>Ширина шины данных&nbsp;&nbsp;<TD>x1
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Системные разъёмы / J6C1 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства системного разъёма:</B>
+<TR><TD><TD><TD><TD>Назначение разъёма&nbsp;&nbsp;<TD>J6C1
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>PCI-E x1
+<TR><TD><TD><TD><TD>Использование&nbsp;&nbsp;<TD>Пусто
+<TR><TD><TD><TD><TD>Ширина шины данных&nbsp;&nbsp;<TD>x1
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Системные разъёмы / J6D1 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства системного разъёма:</B>
+<TR><TD><TD><TD><TD>Назначение разъёма&nbsp;&nbsp;<TD>J6D1
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>PCI-E x1
+<TR><TD><TD><TD><TD>Использование&nbsp;&nbsp;<TD>Пусто
+<TR><TD><TD><TD><TD>Ширина шины данных&nbsp;&nbsp;<TD>x1
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / USB2.0 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>USB
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J1A2
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>USB2.0
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>USB
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / USB2.0 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>USB
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J1A2
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>USB2.0
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>USB
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / USB3.0 Port0 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>USB
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J2A2
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>USB3.0 Port0
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>USB
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / UART to Micro USB ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>USB
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J9D1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>UART to Micro USB
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>USB
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / SD Card ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>CON6A1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>SD Card
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Keyboard ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Keyboard Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J9B1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Клавиатура
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>PS/2
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Mouse ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Mouse Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J9B1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Мышь
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>PS/2
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Microphone ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Audio Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J5A1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Microphone
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>Mini-jack (headphones)
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Line In ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Audio Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J5A1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Line In
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>Mini-jack (headphones)
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Line Out ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Audio Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J5A1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Line Out
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>Mini-jack (headphones)
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Audio Jack ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Audio Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J7A1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Audio Jack
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>Mini-jack (headphones)
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Network Rj45 Jack ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Network Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J2A2
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Network Rj45 Jack
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>RJ-45
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / SATA ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J4J1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>SATA
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>SATA/SAS Plug Receptacle
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / SATA Cable ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J4E2
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>SATA/SAS Plug Receptacle
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>SATA Cable
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / VGA ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Video Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J4A1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>VGA
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>DB-15 pin female
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Display Port ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Video Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J1A1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Display Port
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Display Port ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Video Port
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J3A1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Display Port
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / Serial Port ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Тип порта&nbsp;&nbsp;<TD>Serial Port 16550A Compatible
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J9B4
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>Serial Port
+<TR><TD><TD><TD><TD>Внешний тип разъёма&nbsp;&nbsp;<TD>DB-9 pin male
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разъёмы портов / HDMI ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства разъёма порта:</B>
+<TR><TD><TD><TD><TD>Внутреннее обозначение&nbsp;&nbsp;<TD>J2A1
+<TR><TD><TD><TD><TD>Внутренний тип разъёма&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Внешнее обозначение&nbsp;&nbsp;<TD>HDMI
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Указательные устройства / Touch Pad ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства устройства:</B>
+<TR><TD><TD><TD><TD>Тип устройства&nbsp;&nbsp;<TD>Touch Pad
+<TR><TD><TD><TD><TD>Интерфейс&nbsp;&nbsp;<TD>PS/2
+<TR><TD><TD><TD><TD>Число кнопок&nbsp;&nbsp;<TD>2
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Встроенные устройства / IGD ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства встроенного устройства:</B>
+<TR><TD><TD><TD><TD>Описание&nbsp;&nbsp;<TD>IGD
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>Video
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Запрещено
+<TR><TD><TD><TD><TD>Шина / Устройство / Функция&nbsp;&nbsp;<TD>0 / 2 / 0
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Источники питания / OEM_Define1 ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства источника питания:</B>
+<TR><TD><TD><TD><TD>Имя устройства&nbsp;&nbsp;<TD>OEM_Define1
+<TR><TD><TD><TD><TD>Производитель&nbsp;&nbsp;<TD>OEM_Define2
+<TR><TD><TD><TD><TD>Серийный номер&nbsp;&nbsp;<TD>OEM_Define3
+<TR><TD><TD><TD><TD>Тег имущества&nbsp;&nbsp;<TD>OEM_Define4
+<TR><TD><TD><TD><TD>Шифр компонента&nbsp;&nbsp;<TD>OEM_Define5
+<TR><TD><TD><TD><TD>Тип&nbsp;&nbsp;<TD>Regulator
+<TR><TD><TD><TD><TD>Размещение&nbsp;&nbsp;<TD>OEM_Define0
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>OK
+<TR><TD><TD><TD><TD>Горячая замена&nbsp;&nbsp;<TD>Нет
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Батареи / SR Real Battery ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства батареи:</B>
+<TR><TD><TD><TD><TD>Имя устройства&nbsp;&nbsp;<TD>SR Real Battery
+<TR><TD><TD><TD><TD>Производитель&nbsp;&nbsp;<TD>Intel SR 1
+<TR><TD><TD><TD><TD>Дата выпуска&nbsp;&nbsp;<TD>Дата
+<TR><TD><TD><TD><TD>Серийный номер&nbsp;&nbsp;<TD>123456789
+<TR><TD><TD><TD><TD>Размещение&nbsp;&nbsp;<TD>I2C2
+<TR><TD><TD><TD><TD>Тип батареи&nbsp;&nbsp;<TD>Li-Ion
+<TR><TD><TD><TD><TD>Паспортная ёмкость&nbsp;&nbsp;<TD>1200 mWh
+<TR><TD><TD><TD><TD>Паспортное напряжение&nbsp;&nbsp;<TD>3.750 V
+<TR><TD><TD><TD><TD>Версия SDDS&nbsp;&nbsp;<TD>CRB Battery 0
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Датчики температуры / Temperature Probe Description. ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства устройства:</B>
+<TR><TD><TD><TD><TD>Описание устройства&nbsp;&nbsp;<TD>Temperature Probe Description.
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Датчики напряжения / Voltage Probe Description. ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства устройства:</B>
+<TR><TD><TD><TD><TD>Описание устройства&nbsp;&nbsp;<TD>Voltage Probe Description.
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Cooling Device / Cooling Device Description. ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства устройства:</B>
+<TR><TD><TD><TD><TD>Описание устройства&nbsp;&nbsp;<TD>Cooling Device Description.
+<TR><TD><TD><TD><TD>Тип устройства&nbsp;&nbsp;<TD>Chip Fan
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>OK
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Разное ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Разное:</B>
+<TR><TD><TD><TD><TD>OEM String&nbsp;&nbsp;<TD>Insyde Chipset
+<TR><TD><TD><TD><TD>System Configuration Option&nbsp;&nbsp;<TD>String1 for Type12 Equipment Manufacturer
+<TR><TD><TD><TD><TD>System Configuration Option&nbsp;&nbsp;<TD>String2 for Type12 Equipment Manufacturer
+<TR><TD><TD><TD><TD>System Configuration Option&nbsp;&nbsp;<TD>String3 for Type12 Equipment Manufacturer
+<TR><TD><TD><TD><TD>System Configuration Option&nbsp;&nbsp;<TD>String4 for Type12 Equipment Manufacturer
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="cpu">ЦП</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD><TD COLSPAN=3><B>Свойства ЦП:</B>
+<TR><TD><TD><TD><TD>Тип ЦП&nbsp;&nbsp;<TD>DualCore Intel Celeron N2807, 2166 MHz (26 x 83)
+<TR><TD><TD><TD><TD>Псевдоним ЦП&nbsp;&nbsp;<TD>Bay Trail-M
+<TR><TD><TD><TD><TD>Степпинг ЦП&nbsp;&nbsp;<TD>C0
+<TR><TD><TD><TD><TD>Наборы инструкций&nbsp;&nbsp;<TD>x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2
+<TR><TD><TD><TD><TD>Исходная частота&nbsp;&nbsp;<TD>1583 МГц
+<TR><TD><TD><TD><TD>Engineering Sample&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Кэш L1 кода&nbsp;&nbsp;<TD>32 КБ per core
+<TR><TD><TD><TD><TD>Кэш L1 данных&nbsp;&nbsp;<TD>24 КБ per core
+<TR><TD><TD><TD><TD>Кэш L2&nbsp;&nbsp;<TD>1 МБ  (On-Die, ECC, Full-Speed)
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Физическая информация о ЦП:</B>
+<TR><TD><TD><TD><TD>Тип корпуса&nbsp;&nbsp;<TD>1170 Ball FCBGA
+<TR><TD><TD><TD><TD>Размеры корпуса&nbsp;&nbsp;<TD>25 mm x 27 mm
+<TR><TD><TD><TD><TD>Технологический процесс&nbsp;&nbsp;<TD>22 nm, CMOS, Cu, High-K + Metal Gate
+<TR><TD><TD><TD><TD>Размер кристалла&nbsp;&nbsp;<TD>102 mm2
+<TR><TD><TD><TD><TD>Типичная мощность&nbsp;&nbsp;<TD>4 W
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Производитель ЦП:</B>
+<TR><TD><TD><TD><TD>Фирма&nbsp;&nbsp;<TD>Intel Corporation
+<TR><TD><TD><TD><TD>Информация о продукте&nbsp;&nbsp;<TD><A HREF="http://ark.intel.com/search.aspx?q=Intel%20Celeron%20N2807" TARGET=blank>http://ark.intel.com/search.aspx?q=Intel%20Celeron%20N2807</A>
+<TR><TD><TD><TD><TD>Обновление драйверов&nbsp;&nbsp;<TD><A HREF="http://www.aida64.com/driver-updates" TARGET=blank>http://www.aida64.com/driver-updates</A>
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Multi CPU:</B>
+<TR><TD><TD><TD><TD>ID системной платы&nbsp;&nbsp;<TD>Insyde BayTrail
+<TR><TD><TD><TD><TD>CPU #1&nbsp;&nbsp;<TD>Intel(R) Celeron(R) CPU N2807 @ 1.58GHz, 1583 МГц
+<TR><TD><TD><TD><TD>CPU #2&nbsp;&nbsp;<TD>Intel(R) Celeron(R) CPU N2807 @ 1.58GHz, 1583 МГц
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Загрузка ЦП:</B>
+<TR><TD><TD><TD><TD>ЦП 1 / Ядро 1&nbsp;&nbsp;<TD>0%
+<TR><TD><TD><TD><TD>ЦП 1 / Ядро 2&nbsp;&nbsp;<TD>100%
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="cpuid">CPUID</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD><TD COLSPAN=3><B>Свойства CPUID:</B>
+<TR><TD><TD><TD><TD>Производитель CPUID&nbsp;&nbsp;<TD>GenuineIntel
+<TR><TD><TD><TD><TD>Имя ЦП CPUID&nbsp;&nbsp;<TD>Intel(R) Celeron(R) CPU N2807 @ 1.58GHz
+<TR><TD><TD><TD><TD>Версия CPUID&nbsp;&nbsp;<TD>00030678h
+<TR><TD><TD><TD><TD>Идентификатор марки IA&nbsp;&nbsp;<TD>00h  (Неизвестно)
+<TR><TD><TD><TD><TD>Идентификатор платформы&nbsp;&nbsp;<TD>3Ah / MC 08h  (FCBGA1170-M)
+<TR><TD><TD><TD><TD>Версия обновления микрокода&nbsp;&nbsp;<TD>833h
+<TR><TD><TD><TD><TD>SMT / CMP&nbsp;&nbsp;<TD>0 / 2
+<TR><TD><TD><TD><TD>Температура Tjmax&nbsp;&nbsp;<TD>105 °C  (221 °F)
+<TR><TD><TD><TD><TD>CPU Thermal Design Power&nbsp;&nbsp;<TD>4.3 W
+<TR><TD><TD><TD><TD>CPU Scenario Design Power&nbsp;&nbsp;<TD>3 W
+<TR><TD><TD><TD><TD>CPU Power Limit 1 (Long Duration)&nbsp;&nbsp;<TD>7.8 W / 28.00 sec  (Unlocked)
+<TR><TD><TD><TD><TD>Max Turbo Boost Multipliers&nbsp;&nbsp;<TD>1C: 26x, 2C: 26x
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Наборы инструкций:</B>
+<TR><TD><TD><TD><TD>64-бит x86-расширение (AMD64, Intel64)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>AMD 3DNow!&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>AMD 3DNow! Professional&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>AMD 3DNowPrefetch&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>AMD Enhanced 3DNow!&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>AMD Extended MMX&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>AMD FMA4&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>AMD MisAligned SSE&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>AMD SSE4A&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>AMD XOP&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Cyrix Extended MMX&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Enhanced REP MOVSB/STOSB&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Galois Field New Instructions (GFNI)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Float-16 Conversion Instructions&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA-64&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AES Extensions&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX2&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 (AVX512F)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 4x Fused Multiply-Add Single Precision (AVX512_4FMAPS)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 4x Neural Network Instructions (AVX512_4VNNIW)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 52-bit Integer Multiply-Add Instructions (AVX512_IFMA)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Bit Algorithm (AVX512_BITALG)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Byte and Word Instructions (AVX512BW)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Conflict Detection Instructions (AVX512CD)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Doubleword and Quadword Instructions (AVX512DQ)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Exponential and Reciprocal Instructions (AVX512ER)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Neural Network Instructions (AVX512_VNNI)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Prefetch Instructions (AVX512PF)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Vector Bit Manipulation Instructions (AVX512_VBMI)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Vector Bit Manipulation Instructions 2 (AVX512_VBMI2)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 Vector Length Extensions (AVX512VL)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA AVX-512 VPOPCNTDQ&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA BMI1&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA BMI2&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA FMA&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA MMX&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>IA SHA Extensions&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>IA SSE&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>IA SSE2&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>IA SSE3&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>IA Supplemental SSE3&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>IA SSE4.1&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>IA SSE4.2&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Vector AES (VAES)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>VIA Alternate Instruction Set&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция ADCX / ADOX&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция CLDEMOTE&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция CLFLUSH&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция CLFLUSHOPT&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция CLWB&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция CLZERO&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция CMPXCHG8B&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция CMPXCHG16B&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция Conditional Move&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция Fast Short REP MOV&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция INVPCID&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция LAHF / SAHF&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция LZCNT&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция MONITOR / MWAIT&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция MONITORX / MWAITX&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция MOVBE&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция MOVDIR64B&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция MOVDIRI&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция PCLMULQDQ&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция PCOMMIT&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция PCONFIG&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция POPCNT&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция PREFETCHWT1&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция PTWRITE&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция RDFSBASE / RDGSBASE / WRFSBASE / WRGSBASE&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция RDRAND&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция RDSEED&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция RDTSCP&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция SKINIT / STGI&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция SYSCALL / SYSRET&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция SYSENTER / SYSEXIT&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Trailing Bit Manipulation Instructions&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция VIA FEMMS&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция VPCLMULQDQ&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Инструкция WBNOINVD&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Функции безопасности:</B>
+<TR><TD><TD><TD><TD>Advanced Cryptography Engine (ACE)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Advanced Cryptography Engine 2 (ACE2)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Control-flow Enforcement Technology (CET)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Запрет исполнения данных (DEP, NX, EDB)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Enhanced Indirect Branch Restricted Speculation&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Hardware Random Number Generator (RNG)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Hardware Random Number Generator 2 (RNG2)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Indirect Branch Predictor Barrier (IBPB)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Indirect Branch Restricted Speculation (IBRS)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>L1D Flush&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Memory Protection Extensions (MPX)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>PadLock Hash Engine (PHE)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>PadLock Hash Engine 2 (PHE2)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>PadLock Montgomery Multiplier (PMM)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>PadLock Montgomery Multiplier 2 (PMM2)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Серийный номер процессора (PSN)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Protection Keys for User-Mode Pages (PKU)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Read Processor ID (RDPID)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Safer Mode Extensions (SMX)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Secure Memory Encryption (SME)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>SGX Launch Configuration (SGX_LC)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Software Guard Extensions (SGX)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Single Thread Indirect Branch Predictors (STIBP)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Speculative Store Bypass Disable (SSBD)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Supervisor Mode Access Prevention (SMAP)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Supervisor Mode Execution Protection (SMEP)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Total Memory Encyption (TME)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>User-Mode Instruction Prevention (UMIP)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Функции электропитания:</B>
+<TR><TD><TD><TD><TD>APM Power Reporting&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Application Power Management (APM)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Automatic Clock Control&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Configurable TDP (cTDP)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Connected Standby&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Core C6 State (CC6)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Digital Thermometer&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Dynamic FSB Frequency Switching&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Enhanced Halt State (C1E)&nbsp;&nbsp;<TD>Поддерживается, Запрещено
+<TR><TD><TD><TD><TD>Enhanced SpeedStep Technology (EIST, ESS)&nbsp;&nbsp;<TD>Поддерживается, Разрешено
+<TR><TD><TD><TD><TD>Frequency ID Control&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Hardware P-State Control&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Hardware Thermal Control (HTC)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>LongRun&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>LongRun Table Interface&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Overstress&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Package C6 State (PC6)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Parallax&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>PowerSaver 1.0&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>PowerSaver 2.0&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>PowerSaver 3.0&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Processor Duty Cycle Control&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Running Average Power Limit (RAPL)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Software Thermal Control&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>SpeedShift (SST, HWP)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Термодиод&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Thermal Monitor 1&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Thermal Monitor 2&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Thermal Monitor 3&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Thermal Monitoring&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Thermal Trip&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Voltage ID Control&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Функции виртуализации:</B>
+<TR><TD><TD><TD><TD>AMD Virtual Interrupt Controller (AVIC)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Decode Assists&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Encrypted Microcode Patch&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Encrypted State (SEV-ES)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Extended Page Table (EPT)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Flush by ASID&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Hypervisor&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Инструкция INVEPT&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Инструкция INVVPID&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>LBR Virtualization&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Nested Paging (NPT, RVI)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>NRIP Save (NRIPS)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>PAUSE Filter Threshold&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>PAUSE Intercept Filter&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Secure Encrypted Virtualization (SEV)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Secure Virtual Machine (SVM, Pacifica)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>SVM Lock (SVML)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Virtualized GIF (vGIF)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Virtualized VMLOAD and VMSAVE&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Virtual Machine Extensions (VMX, Vanderpool)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Virtual Processor ID (VPID)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>VMCB Clean Bits&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Функции CPUID:</B>
+<TR><TD><TD><TD><TD>1 GB Page Size&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>36-bit Page Size Extension&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>5-Level Paging&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>64-bit DS Area&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Adaptive Overclocking&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Address Region Registers (ARR)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Code and Data Prioritization Technology (CDP)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Core Performance Boost (CPB)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Core Performance Counters&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>CPL Qualified Debug Store&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Data Breakpoint Extension&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Debug Trace Store&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Debugging Extension&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Deprecated FPU CS and FPU DS&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Direct Cache Access&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Dynamic Acceleration Technology (IDA)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Dynamic Configurable TDP (DcTDP)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Extended APIC Register Space&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Fast Save & Restore&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Hardware Lock Elision (HLE)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Hybrid Boost&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Hyper-Threading Technology (HTT)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Instruction Based Sampling&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Invariant Time Stamp Counter&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>L1 Context ID&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>L2I Performance Counters&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Lightweight Profiling&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Local APIC On Chip&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Machine Check Architecture (MCA)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Machine Check Exception (MCE)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Memory Configuration Registers (MCR)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Memory Type Range Registers (MTRR)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Model Specific Registers (MSR)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>NB Performance Counters&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Page Attribute Table (PAT)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Page Global Extension&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Page Size Extension (PSE)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Pending Break Event (PBE)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Performance Time Stamp Counter (PTSC)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Physical Address Extension (PAE)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Platform Quality of Service Enforcement (PQE)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Platform Quality of Service Monitoring (PQM)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Process Context Identifiers (PCID)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Processor Feedback Interface&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Processor Trace (PT)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Restricted Transactional Memory (RTM)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Self-Snoop&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Time Stamp Counter (TSC)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Time Stamp Counter Adjust&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Turbo Boost&nbsp;&nbsp;<TD>Поддерживается, Разрешено
+<TR><TD><TD><TD><TD>Turbo Boost Max 3.0&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Virtual Mode Extension&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Watchdog Timer&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>x2APIC&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>XGETBV / XSETBV OS Enabled&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>XSAVE / XRSTOR / XSETBV / XGETBV Extended States&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>XSAVEOPT&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>CPUID Registers (CPU #1):</B>
+<TR><TD><TD><TD><TD>CPUID 00000000&nbsp;&nbsp;<TD>0000000B-756E6547-6C65746E-49656E69 [GenuineIntel]
+<TR><TD><TD><TD><TD>CPUID 00000001&nbsp;&nbsp;<TD>00030678-00100800-41D8E3BF-BFEBFBFF
+<TR><TD><TD><TD><TD>CPUID 00000002&nbsp;&nbsp;<TD>61B3A001-0000FFC2-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 00000003&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 00000004&nbsp;&nbsp;<TD>1C000121-0140003F-0000003F-00000001 [SL 00]
+<TR><TD><TD><TD><TD>CPUID 00000004&nbsp;&nbsp;<TD>1C000122-01C0003F-0000003F-00000001 [SL 01]
+<TR><TD><TD><TD><TD>CPUID 00000004&nbsp;&nbsp;<TD>1C00C143-03C0003F-000003FF-00000001 [SL 02]
+<TR><TD><TD><TD><TD>CPUID 00000005&nbsp;&nbsp;<TD>00000040-00000040-00000003-33000020
+<TR><TD><TD><TD><TD>CPUID 00000006&nbsp;&nbsp;<TD>00000007-00000002-00000009-00000000
+<TR><TD><TD><TD><TD>CPUID 00000007&nbsp;&nbsp;<TD>00000000-00002282-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 00000008&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 00000009&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 0000000A&nbsp;&nbsp;<TD>07280203-00000000-00000000-00004503
+<TR><TD><TD><TD><TD>CPUID 0000000B&nbsp;&nbsp;<TD>00000001-00000001-00000100-00000000 [SL 00]
+<TR><TD><TD><TD><TD>CPUID 0000000B&nbsp;&nbsp;<TD>00000004-00000002-00000201-00000000 [SL 01]
+<TR><TD><TD><TD><TD>CPUID 80000000&nbsp;&nbsp;<TD>80000008-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 80000001&nbsp;&nbsp;<TD>00000000-00000000-00000101-28100000
+<TR><TD><TD><TD><TD>CPUID 80000002&nbsp;&nbsp;<TD>20202020-6E492020-286C6574-43202952 [      Intel(R) C]
+<TR><TD><TD><TD><TD>CPUID 80000003&nbsp;&nbsp;<TD>72656C65-52286E6F-50432029-4E202055 [eleron(R) CPU  N]
+<TR><TD><TD><TD><TD>CPUID 80000004&nbsp;&nbsp;<TD>37303832-20402020-38352E31-007A4847 [2807  @ 1.58GHz]
+<TR><TD><TD><TD><TD>CPUID 80000005&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 80000006&nbsp;&nbsp;<TD>00000000-00000000-04008040-00000000
+<TR><TD><TD><TD><TD>CPUID 80000007&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000100
+<TR><TD><TD><TD><TD>CPUID 80000008&nbsp;&nbsp;<TD>00003024-00000000-00000000-00000000
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>CPUID Registers (CPU #2):</B>
+<TR><TD><TD><TD><TD>CPUID 00000000&nbsp;&nbsp;<TD>0000000B-756E6547-6C65746E-49656E69 [GenuineIntel]
+<TR><TD><TD><TD><TD>CPUID 00000001&nbsp;&nbsp;<TD>00030678-02100800-41D8E3BF-BFEBFBFF
+<TR><TD><TD><TD><TD>CPUID 00000002&nbsp;&nbsp;<TD>61B3A001-0000FFC2-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 00000003&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 00000004&nbsp;&nbsp;<TD>1C000121-0140003F-0000003F-00000001 [SL 00]
+<TR><TD><TD><TD><TD>CPUID 00000004&nbsp;&nbsp;<TD>1C000122-01C0003F-0000003F-00000001 [SL 01]
+<TR><TD><TD><TD><TD>CPUID 00000004&nbsp;&nbsp;<TD>1C00C143-03C0003F-000003FF-00000001 [SL 02]
+<TR><TD><TD><TD><TD>CPUID 00000005&nbsp;&nbsp;<TD>00000040-00000040-00000003-33000020
+<TR><TD><TD><TD><TD>CPUID 00000006&nbsp;&nbsp;<TD>00000007-00000002-00000009-00000000
+<TR><TD><TD><TD><TD>CPUID 00000007&nbsp;&nbsp;<TD>00000000-00002282-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 00000008&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 00000009&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 0000000A&nbsp;&nbsp;<TD>07280203-00000000-00000000-00004503
+<TR><TD><TD><TD><TD>CPUID 0000000B&nbsp;&nbsp;<TD>00000001-00000001-00000100-00000002 [SL 00]
+<TR><TD><TD><TD><TD>CPUID 0000000B&nbsp;&nbsp;<TD>00000004-00000002-00000201-00000002 [SL 01]
+<TR><TD><TD><TD><TD>CPUID 80000000&nbsp;&nbsp;<TD>80000008-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 80000001&nbsp;&nbsp;<TD>00000000-00000000-00000101-28100000
+<TR><TD><TD><TD><TD>CPUID 80000002&nbsp;&nbsp;<TD>20202020-6E492020-286C6574-43202952 [      Intel(R) C]
+<TR><TD><TD><TD><TD>CPUID 80000003&nbsp;&nbsp;<TD>72656C65-52286E6F-50432029-4E202055 [eleron(R) CPU  N]
+<TR><TD><TD><TD><TD>CPUID 80000004&nbsp;&nbsp;<TD>37303832-20402020-38352E31-007A4847 [2807  @ 1.58GHz]
+<TR><TD><TD><TD><TD>CPUID 80000005&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000000
+<TR><TD><TD><TD><TD>CPUID 80000006&nbsp;&nbsp;<TD>00000000-00000000-04008040-00000000
+<TR><TD><TD><TD><TD>CPUID 80000007&nbsp;&nbsp;<TD>00000000-00000000-00000000-00000100
+<TR><TD><TD><TD><TD>CPUID 80000008&nbsp;&nbsp;<TD>00003024-00000000-00000000-00000000
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>MSR Registers:</B>
+<TR><TD><TD><TD><TD>MSR 00000017&nbsp;&nbsp;<TD>000C-0000-9034-1A45 [PlatID = 3]
+<TR><TD><TD><TD><TD>MSR 0000001B&nbsp;&nbsp;<TD>0000-0000-FEE0-0900
+<TR><TD><TD><TD><TD>MSR 0000002A&nbsp;&nbsp;<TD>0000-0000-4008-0000
+<TR><TD><TD><TD><TD>MSR 00000035&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 0000008B&nbsp;&nbsp;<TD>0000-0833-0000-0000
+<TR><TD><TD><TD><TD>MSR 000000CD&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 000000CE&nbsp;&nbsp;<TD>0000-0600-0000-1300 [eD = 0]
+<TR><TD><TD><TD><TD>MSR 000000E7&nbsp;&nbsp;<TD>0000-0000-0008-1E92 [S200]
+<TR><TD><TD><TD><TD>MSR 000000E7&nbsp;&nbsp;<TD>0000-0000-0023-25D6
+<TR><TD><TD><TD><TD>MSR 000000E7&nbsp;&nbsp;<TD>0000-0000-015C-8C9A [S200]
+<TR><TD><TD><TD><TD>MSR 000000E8&nbsp;&nbsp;<TD>0000-0000-000B-3A1E
+<TR><TD><TD><TD><TD>MSR 000000E8&nbsp;&nbsp;<TD>0000-0000-0013-CE9C [S200]
+<TR><TD><TD><TD><TD>MSR 000000E8&nbsp;&nbsp;<TD>0000-0000-0030-7FD0 [S200]
+<TR><TD><TD><TD><TD>MSR 000000EE&nbsp;&nbsp;<TD>0000-0000-0238-0002
+<TR><TD><TD><TD><TD>MSR 0000011E&nbsp;&nbsp;<TD>0000-0000-7E28-01FF
+<TR><TD><TD><TD><TD>MSR 00000194&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000198&nbsp;&nbsp;<TD>0000-6800-0000-1A45
+<TR><TD><TD><TD><TD>MSR 00000198&nbsp;&nbsp;<TD>0000-6800-0000-1A45 [S200]
+<TR><TD><TD><TD><TD>MSR 00000198&nbsp;&nbsp;<TD>0000-6800-0000-1A45 [S200]
+<TR><TD><TD><TD><TD>MSR 00000199&nbsp;&nbsp;<TD>0000-0000-0000-1A45
+<TR><TD><TD><TD><TD>MSR 0000019A&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 0000019B&nbsp;&nbsp;<TD>0000-0000-00CB-B700
+<TR><TD><TD><TD><TD>MSR 0000019C&nbsp;&nbsp;<TD>0000-0000-8840-0100
+<TR><TD><TD><TD><TD>MSR 0000019C&nbsp;&nbsp;<TD>0000-0000-8840-0100 [S200]
+<TR><TD><TD><TD><TD>MSR 0000019C&nbsp;&nbsp;<TD>0000-0000-8840-0100 [S200]
+<TR><TD><TD><TD><TD>MSR 0000019D&nbsp;&nbsp;<TD>0000-0000-0000-0624
+<TR><TD><TD><TD><TD>MSR 000001A0&nbsp;&nbsp;<TD>0000-0000-0085-0089
+<TR><TD><TD><TD><TD>MSR 000001A2&nbsp;&nbsp;<TD>0000-0000-0069-0000
+<TR><TD><TD><TD><TD>MSR 000001A4&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 000001AA&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 000001AC&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 000001AD&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 000001B0&nbsp;&nbsp;<TD>0000-0000-0000-0005
+<TR><TD><TD><TD><TD>MSR 000001B1&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 000001B2&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 000001FC&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000300&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 0000030A&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 0000030A&nbsp;&nbsp;<TD>0000-0000-0000-0000 [S200]
+<TR><TD><TD><TD><TD>MSR 0000030A&nbsp;&nbsp;<TD>0000-0000-0000-0000 [S200]
+<TR><TD><TD><TD><TD>MSR 0000030B&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 0000030B&nbsp;&nbsp;<TD>0000-0000-0000-0000 [S200]
+<TR><TD><TD><TD><TD>MSR 0000030B&nbsp;&nbsp;<TD>0000-0000-0000-0000 [S200]
+<TR><TD><TD><TD><TD>MSR 00000480&nbsp;&nbsp;<TD>00DA-0400-0000-0002
+<TR><TD><TD><TD><TD>MSR 00000481&nbsp;&nbsp;<TD>0000-007F-0000-0016
+<TR><TD><TD><TD><TD>MSR 00000482&nbsp;&nbsp;<TD>FFF9-FFFE-0401-E172
+<TR><TD><TD><TD><TD>MSR 00000483&nbsp;&nbsp;<TD>007F-FFFF-0003-6DFF
+<TR><TD><TD><TD><TD>MSR 00000484&nbsp;&nbsp;<TD>0000-FFFF-0000-11FF
+<TR><TD><TD><TD><TD>MSR 00000485&nbsp;&nbsp;<TD>0000-0000-0004-81E6
+<TR><TD><TD><TD><TD>MSR 00000486&nbsp;&nbsp;<TD>0000-0000-8000-0021
+<TR><TD><TD><TD><TD>MSR 00000487&nbsp;&nbsp;<TD>0000-0000-FFFF-FFFF
+<TR><TD><TD><TD><TD>MSR 00000488&nbsp;&nbsp;<TD>0000-0000-0000-2000
+<TR><TD><TD><TD><TD>MSR 00000489&nbsp;&nbsp;<TD>0000-0000-0010-27FF
+<TR><TD><TD><TD><TD>MSR 0000048A&nbsp;&nbsp;<TD>0000-0000-0000-002E
+<TR><TD><TD><TD><TD>MSR 0000048B&nbsp;&nbsp;<TD>0000-28EF-0000-0000
+<TR><TD><TD><TD><TD>MSR 0000048C&nbsp;&nbsp;<TD>0000-0F01-0611-4141
+<TR><TD><TD><TD><TD>MSR 0000048D&nbsp;&nbsp;<TD>0000-007F-0000-0016
+<TR><TD><TD><TD><TD>MSR 0000048E&nbsp;&nbsp;<TD>FFF9-FFFE-0400-6172
+<TR><TD><TD><TD><TD>MSR 0000048F&nbsp;&nbsp;<TD>007F-FFFF-0003-6DFB
+<TR><TD><TD><TD><TD>MSR 00000490&nbsp;&nbsp;<TD>0000-FFFF-0000-11FB
+<TR><TD><TD><TD><TD>MSR 00000601&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000602&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000603&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000604&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000606&nbsp;&nbsp;<TD>0000-0000-0000-0505
+<TR><TD><TD><TD><TD>MSR 0000060A&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 0000060B&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 0000060C&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 0000060D&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000610&nbsp;&nbsp;<TD>0000-0000-0038-80FA
+<TR><TD><TD><TD><TD>MSR 00000611&nbsp;&nbsp;<TD>0000-0000-7C30-DB31 [S200]
+<TR><TD><TD><TD><TD>MSR 00000611&nbsp;&nbsp;<TD>0000-0000-7C30-F6C2 [S200]
+<TR><TD><TD><TD><TD>MSR 00000611&nbsp;&nbsp;<TD>0000-0000-7C31-1226
+<TR><TD><TD><TD><TD>MSR 00000613&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000614&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000618&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000619&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 0000061B&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 0000061C&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000638&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000639&nbsp;&nbsp;<TD>0000-0000-9FCC-17FA [S200]
+<TR><TD><TD><TD><TD>MSR 00000639&nbsp;&nbsp;<TD>0000-0000-9FCC-2FB2 [S200]
+<TR><TD><TD><TD><TD>MSR 00000639&nbsp;&nbsp;<TD>0000-0000-9FCC-4736
+<TR><TD><TD><TD><TD>MSR 0000063A&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 0000063B&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000640&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000641&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000642&nbsp;&nbsp;<TD>&lt; FAILED &gt;
+<TR><TD><TD><TD><TD>MSR 00000660&nbsp;&nbsp;<TD>0001-DCF6-2D2D-D763
+<TR><TD><TD><TD><TD>MSR 00000661&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000662&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000663&nbsp;&nbsp;<TD>0000-FDFF-D9E7-EB40
+<TR><TD><TD><TD><TD>MSR 00000664&nbsp;&nbsp;<TD>0000-0002-82A3-E27C
+<TR><TD><TD><TD><TD>MSR 00000665&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000666&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000667&nbsp;&nbsp;<TD>0000-0000-0000-0028
+<TR><TD><TD><TD><TD>MSR 00000668&nbsp;&nbsp;<TD>0000-0000-1313-0F0B
+<TR><TD><TD><TD><TD>MSR 00000669&nbsp;&nbsp;<TD>0000-0000-0101-0F20
+<TR><TD><TD><TD><TD>MSR 0000066A&nbsp;&nbsp;<TD>0000-0000-0013-0602
+<TR><TD><TD><TD><TD>MSR 0000066B&nbsp;&nbsp;<TD>0000-0000-0034-2424
+<TR><TD><TD><TD><TD>MSR 0000066C&nbsp;&nbsp;<TD>0000-0000-0000-1A1A
+<TR><TD><TD><TD><TD>MSR 0000066D&nbsp;&nbsp;<TD>0000-0000-0000-4545
+<TR><TD><TD><TD><TD>MSR 0000066E&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 0000066F&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000670&nbsp;&nbsp;<TD>0000-0000-0000-0702
+<TR><TD><TD><TD><TD>MSR 00000671&nbsp;&nbsp;<TD>0000-0000-0000-200B
+<TR><TD><TD><TD><TD>MSR 00000672&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000673&nbsp;&nbsp;<TD>0000-0000-0000-0305
+<TR><TD><TD><TD><TD>MSR 00000674&nbsp;&nbsp;<TD>0000-0000-0405-500D
+<TR><TD><TD><TD><TD>MSR 00000675&nbsp;&nbsp;<TD>0000-0000-0000-0027
+<TR><TD><TD><TD><TD>MSR 00000676&nbsp;&nbsp;<TD>0000-0000-0000-0000
+<TR><TD><TD><TD><TD>MSR 00000677&nbsp;&nbsp;<TD>0000-0000-0000-0000
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="motherboard">Системная плата</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD><TD COLSPAN=3><B>Свойства системной платы:</B>
+<TR><TD><TD><TD><TD>ID системной платы&nbsp;&nbsp;<TD>&lt;DMI&gt;
+<TR><TD><TD><TD><TD>Системная плата&nbsp;&nbsp;<TD>N/A PS-3316
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства шины FSB:</B>
+<TR><TD><TD><TD><TD>Тип шины&nbsp;&nbsp;<TD>BCLK
+<TR><TD><TD><TD><TD>Реальная частота&nbsp;&nbsp;<TD>83 МГц
+<TR><TD><TD><TD><TD>Эффективная частота&nbsp;&nbsp;<TD>83 МГц
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства шины памяти:</B>
+<TR><TD><TD><TD><TD>Тип шины&nbsp;&nbsp;<TD>DDR3 SDRAM
+<TR><TD><TD><TD><TD>Ширина шины&nbsp;&nbsp;<TD>64 бит
+<TR><TD><TD><TD><TD>Соотношение DRAM:FSB&nbsp;&nbsp;<TD>40:5
+<TR><TD><TD><TD><TD>Реальная частота&nbsp;&nbsp;<TD>666 МГц (DDR)
+<TR><TD><TD><TD><TD>Эффективная частота&nbsp;&nbsp;<TD>1333 МГц
+<TR><TD><TD><TD><TD>Пропускная способность&nbsp;&nbsp;<TD>10663 МБ/с
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="memory">Память</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD><TD COLSPAN=3><B>Физическая память:</B>
+<TR><TD><TD><TD><TD>Всего&nbsp;&nbsp;<TD>2967 МБ
+<TR><TD><TD><TD><TD>Занято&nbsp;&nbsp;<TD>894 МБ
+<TR><TD><TD><TD><TD>Свободно&nbsp;&nbsp;<TD>2074 МБ
+<TR><TD><TD><TD><TD>Загрузка&nbsp;&nbsp;<TD>30 %
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Виртуальная память:</B>
+<TR><TD><TD><TD><TD>Всего&nbsp;&nbsp;<TD>5933 МБ
+<TR><TD><TD><TD><TD>Занято&nbsp;&nbsp;<TD>834 МБ
+<TR><TD><TD><TD><TD>Свободно&nbsp;&nbsp;<TD>5099 МБ
+<TR><TD><TD><TD><TD>Загрузка&nbsp;&nbsp;<TD>14 %
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Файл подкачки:</B>
+<TR><TD><TD><TD><TD>Файл подкачки&nbsp;&nbsp;<TD>C:\pagefile.sys
+<TR><TD><TD><TD><TD>Текущий размер&nbsp;&nbsp;<TD>2967 МБ
+<TR><TD><TD><TD><TD>Текущая/пиковая загрузка&nbsp;&nbsp;<TD>0 МБ / 0 МБ
+<TR><TD><TD><TD><TD>Загрузка&nbsp;&nbsp;<TD>0 %
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Physical Address Extension (PAE):</B>
+<TR><TD><TD><TD><TD>Поддерживается ОС&nbsp;&nbsp;<TD>Да
+<TR><TD><TD><TD><TD>Поддерживается ЦП&nbsp;&nbsp;<TD>Да
+<TR><TD><TD><TD><TD>Активный&nbsp;&nbsp;<TD>Да
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="spd">SPD</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD CLASS=dt COLSPAN=5>[ DIMM1: Kingston CBD16D3LS1KBG/4G ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства модуля памяти:</B>
+<TR><TD><TD><TD><TD>Имя модуля&nbsp;&nbsp;<TD>Kingston CBD16D3LS1KBG/4G
+<TR><TD><TD><TD><TD>Серийный номер&nbsp;&nbsp;<TD>073A230Eh (237189639)
+<TR><TD><TD><TD><TD>Дата выпуска&nbsp;&nbsp;<TD>Неделя 17 / 2017
+<TR><TD><TD><TD><TD>Размер модуля&nbsp;&nbsp;<TD>4 ГБ (1 rank, 8 banks)
+<TR><TD><TD><TD><TD>Тип модуля&nbsp;&nbsp;<TD>SO-DIMM
+<TR><TD><TD><TD><TD>Тип памяти&nbsp;&nbsp;<TD>DDR3 SDRAM
+<TR><TD><TD><TD><TD>Скорость памяти&nbsp;&nbsp;<TD>DDR3-1600 (800 МГц)
+<TR><TD><TD><TD><TD>Ширина модуля&nbsp;&nbsp;<TD>64 bit
+<TR><TD><TD><TD><TD>Напряжение модуля&nbsp;&nbsp;<TD>1.35 V / 1.5 V
+<TR><TD><TD><TD><TD>Метод обнаружения ошибок&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Частота регенерации&nbsp;&nbsp;<TD>Норма (7.8 us)
+<TR><TD><TD><TD><TD>Производитель DRAM&nbsp;&nbsp;<TD>Kingston
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Тайминги памяти:</B>
+<TR><TD><TD><TD><TD>@ 800 МГц&nbsp;&nbsp;<TD>11-11-11-28  (CL-RCD-RP-RAS) / 39-208-5-12-6-6-24  (RC-RFC-RRD-WR-WTR-RTP-FAW)
+<TR><TD><TD><TD><TD>@ 761 МГц&nbsp;&nbsp;<TD>10-10-10-27  (CL-RCD-RP-RAS) / 37-199-5-12-6-6-23  (RC-RFC-RRD-WR-WTR-RTP-FAW)
+<TR><TD><TD><TD><TD>@ 685 МГц&nbsp;&nbsp;<TD>9-9-9-24  (CL-RCD-RP-RAS) / 33-179-5-11-6-6-21  (RC-RFC-RRD-WR-WTR-RTP-FAW)
+<TR><TD><TD><TD><TD>@ 609 МГц&nbsp;&nbsp;<TD>8-8-8-22  (CL-RCD-RP-RAS) / 30-159-4-10-5-5-19  (RC-RFC-RRD-WR-WTR-RTP-FAW)
+<TR><TD><TD><TD><TD>@ 533 МГц&nbsp;&nbsp;<TD>7-7-7-19  (CL-RCD-RP-RAS) / 26-139-4-8-4-4-16  (RC-RFC-RRD-WR-WTR-RTP-FAW)
+<TR><TD><TD><TD><TD>@ 457 МГц&nbsp;&nbsp;<TD>6-6-6-16  (CL-RCD-RP-RAS) / 22-119-3-7-4-4-14  (RC-RFC-RRD-WR-WTR-RTP-FAW)
+<TR><TD><TD><TD><TD>@ 380 МГц&nbsp;&nbsp;<TD>5-5-5-14  (CL-RCD-RP-RAS) / 19-100-3-6-3-3-12  (RC-RFC-RRD-WR-WTR-RTP-FAW)
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Функции модуля памяти:</B>
+<TR><TD><TD><TD><TD>Auto Self Refresh (ASR)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>DLL-Off Mode&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Extended Temperature Range&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>Extended Temperature 1X Refresh Rate&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Module Thermal Sensor&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>On-Die Thermal Sensor Readout (ODTS)&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>Partial Array Self Refresh (PASR)&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>RZQ/6&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD><TD><TD><TD>RZQ/7&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Производитель модуля памяти:</B>
+<TR><TD><TD><TD><TD>Фирма&nbsp;&nbsp;<TD>Kingston Technology Corporation
+<TR><TD><TD><TD><TD>Информация о продукте&nbsp;&nbsp;<TD><A HREF="http://www.kingston.com/en/memory" TARGET=blank>http://www.kingston.com/en/memory</A>
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="chipset">Чипсет</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD CLASS=dt COLSPAN=5>[ Северный мост: Intel Bay Trail-M IMC ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства северного моста:</B>
+<TR><TD><TD><TD><TD>Северный мост&nbsp;&nbsp;<TD>Intel Bay Trail-M IMC
+<TR><TD><TD><TD><TD>Платформа Intel&nbsp;&nbsp;<TD>Bay Trail-M
+<TR><TD><TD><TD><TD>Поддерживаемые типы памяти&nbsp;&nbsp;<TD>DDR3-1333 SDRAM
+<TR><TD><TD><TD><TD>Максимальный объём памяти&nbsp;&nbsp;<TD>4 ГБ
+<TR><TD><TD><TD><TD>Версия / Stepping&nbsp;&nbsp;<TD>0E / C0
+<TR><TD><TD><TD><TD>Технологический процесс&nbsp;&nbsp;<TD>22 nm
+<TR><TD><TD><TD><TD>Debug Info&nbsp;&nbsp;<TD>Reg00 = 00004081h / 00004081h
+<TR><TD><TD><TD><TD>Debug Info&nbsp;&nbsp;<TD>Reg01 = 13004442h / 13004442h
+<TR><TD><TD><TD><TD>Debug Info&nbsp;&nbsp;<TD>Reg02 = 20A50704h / 20A50704h
+<TR><TD><TD><TD><TD>Debug Info&nbsp;&nbsp;<TD>Reg03 = 00222211h / 00222211h
+<TR><TD><TD><TD><TD>Debug Info&nbsp;&nbsp;<TD>Reg04 = 0680A322h / 0680A322h
+<TR><TD><TD><TD><TD>Debug Info&nbsp;&nbsp;<TD>Reg08 = 03223DDDh / 03223DDDh
+<TR><TD><TD><TD><TD>Debug Info&nbsp;&nbsp;<TD>Reg60 = 00000000h / 00000000h
+<TR><TD><TD><TD><TD>Debug Info&nbsp;&nbsp;<TD>Reg70 = 0000003Bh / 0000003Bh
+<TR><TD><TD><TD><TD>Debug Info&nbsp;&nbsp;<TD>RegP4-06 = 40030140h / RegP4-B0 = 00000003h / RegP4-B1 = 0000BEBFh / RegP4-D1 = 00000000h / RegP4-D3 = 000000BFh / RegP4-D4 = 000000D6h / RegP4-D8 = 0000D6D0h
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Тайминги памяти:</B>
+<TR><TD><TD><TD><TD>CAS Latency (CL)&nbsp;&nbsp;<TD>9T
+<TR><TD><TD><TD><TD>RAS To CAS Delay (tRCD)&nbsp;&nbsp;<TD>9T
+<TR><TD><TD><TD><TD>RAS Precharge (tRP)&nbsp;&nbsp;<TD>9T
+<TR><TD><TD><TD><TD>RAS Active Time (tRAS)&nbsp;&nbsp;<TD>24T
+<TR><TD><TD><TD><TD>Command Rate (CR)&nbsp;&nbsp;<TD>1T
+<TR><TD><TD><TD><TD>CAS To CAS Delay (tCCD)&nbsp;&nbsp;<TD>4T
+<TR><TD><TD><TD><TD>RAS To RAS Delay (tRRD)&nbsp;&nbsp;<TD>4T
+<TR><TD><TD><TD><TD>Write Recovery Time (tWR)&nbsp;&nbsp;<TD>10T
+<TR><TD><TD><TD><TD>Read To Read Delay (tRTR)&nbsp;&nbsp;<TD>Different Rank: 6T, Different DIMM: 6T
+<TR><TD><TD><TD><TD>Read To Write Delay (tRTW)&nbsp;&nbsp;<TD>Same Rank: 9T, Different Rank: 7T, Different DIMM: 6T
+<TR><TD><TD><TD><TD>Write To Read Delay (tWTR)&nbsp;&nbsp;<TD>5T, Same Rank: 16T, Different Rank: 5T, Different DIMM: 6T
+<TR><TD><TD><TD><TD>Write To Write Delay (tWTW)&nbsp;&nbsp;<TD>Different Rank: 6T, Different DIMM: 6T
+<TR><TD><TD><TD><TD>Read To Precharge Delay (tRTP)&nbsp;&nbsp;<TD>6T
+<TR><TD><TD><TD><TD>Write To Precharge Delay (tWTP)&nbsp;&nbsp;<TD>21T
+<TR><TD><TD><TD><TD>Four Activate Window Delay (tFAW)&nbsp;&nbsp;<TD>20T
+<TR><TD><TD><TD><TD>Write CAS Latency (tWCL)&nbsp;&nbsp;<TD>7T
+<TR><TD><TD><TD><TD>Refresh Period (tREF)&nbsp;&nbsp;<TD>7.8 us
+<TR><TD><TD><TD><TD>Burst Length (BL)&nbsp;&nbsp;<TD>8
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Коррекция ошибок:</B>
+<TR><TD><TD><TD><TD>ECC&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>ChipKill ECC&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>RAID&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD><TD><TD><TD>ECC Scrubbing&nbsp;&nbsp;<TD>Не поддерживается
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Встроенный графический контроллер:</B>
+<TR><TD><TD><TD><TD>Тип графического контроллера&nbsp;&nbsp;<TD>Intel HD Graphics
+<TR><TD><TD><TD><TD>Статус графического контроллера&nbsp;&nbsp;<TD>Разрешено
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Контроллер PCI Express:</B>
+<TR><TD><TD><TD><TD>PCI-E 2.0 x1 port #1&nbsp;&nbsp;<TD>Пусто
+<TR><TD><TD><TD><TD>PCI-E 2.0 x1 port #2&nbsp;&nbsp;<TD>Пусто
+<TR><TD><TD><TD><TD>PCI-E 2.0 x1 port #3&nbsp;&nbsp;<TD>Используется @ x1  (Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter)
+<TR><TD><TD><TD><TD>PCI-E 2.0 x1 port #4&nbsp;&nbsp;<TD>Пусто
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Производитель чипсета:</B>
+<TR><TD><TD><TD><TD>Фирма&nbsp;&nbsp;<TD>Intel Corporation
+<TR><TD><TD><TD><TD>Информация о продукте&nbsp;&nbsp;<TD><A HREF="http://www.intel.com/products/chipsets" TARGET=blank>http://www.intel.com/products/chipsets</A>
+<TR><TD><TD><TD><TD>Загрузка драйверов&nbsp;&nbsp;<TD><A HREF="http://support.intel.com/support/chipsets" TARGET=blank>http://support.intel.com/support/chipsets</A>
+<TR><TD><TD><TD><TD>Модернизации BIOS&nbsp;&nbsp;<TD><A HREF="http://www.aida64.com/bios-updates" TARGET=blank>http://www.aida64.com/bios-updates</A>
+<TR><TD><TD><TD><TD>Обновление драйверов&nbsp;&nbsp;<TD><A HREF="http://www.aida64.com/driver-updates" TARGET=blank>http://www.aida64.com/driver-updates</A>
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="bios">BIOS</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD><TD COLSPAN=3><B>Свойства BIOS:</B>
+<TR><TD><TD><TD><TD>Тип BIOS&nbsp;&nbsp;<TD>Insyde UEFI
+<TR><TD><TD><TD><TD>Версия BIOS&nbsp;&nbsp;<TD>REV.E
+<TR><TD><TD><TD><TD>SMBIOS Version&nbsp;&nbsp;<TD>2.8
+<TR><TD><TD><TD><TD>UEFI Boot&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>Дата BIOS системы&nbsp;&nbsp;<TD>02/10/2017
+<TR><TD><TD><TD><TD>Дата BIOS видеоадаптера&nbsp;&nbsp;<TD>11/17/13
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Производитель BIOS:</B>
+<TR><TD><TD><TD><TD>Фирма&nbsp;&nbsp;<TD>Insyde Software Corp.
+<TR><TD><TD><TD><TD>Информация о продукте&nbsp;&nbsp;<TD><A HREF="http://www.insydesw.com/products" TARGET=blank>http://www.insydesw.com/products</A>
+<TR><TD><TD><TD><TD>Модернизации BIOS&nbsp;&nbsp;<TD><A HREF="http://www.aida64.com/bios-updates" TARGET=blank>http://www.aida64.com/bios-updates</A>
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt><A NAME="acpi">ACPI</A><TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD WIDTH=16><TD><TD>
+<TR><TD><TD CLASS=dt COLSPAN=5>[ APIC: Multiple APIC Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>APIC
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Multiple APIC Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88C6000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>132 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD><TD><TD><TD>Local APIC Address&nbsp;&nbsp;<TD>FEE00000h
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Processor Local APIC:</B>
+<TR><TD><TD><TD><TD>ACPI Processor ID&nbsp;&nbsp;<TD>01h
+<TR><TD><TD><TD><TD>APIC ID&nbsp;&nbsp;<TD>00h
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Processor Local APIC:</B>
+<TR><TD><TD><TD><TD>ACPI Processor ID&nbsp;&nbsp;<TD>02h
+<TR><TD><TD><TD><TD>APIC ID&nbsp;&nbsp;<TD>02h
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Processor Local APIC:</B>
+<TR><TD><TD><TD><TD>ACPI Processor ID&nbsp;&nbsp;<TD>03h
+<TR><TD><TD><TD><TD>APIC ID&nbsp;&nbsp;<TD>04h
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Запрещено
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Processor Local APIC:</B>
+<TR><TD><TD><TD><TD>ACPI Processor ID&nbsp;&nbsp;<TD>04h
+<TR><TD><TD><TD><TD>APIC ID&nbsp;&nbsp;<TD>06h
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Запрещено
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>I/O APIC:</B>
+<TR><TD><TD><TD><TD>I/O APIC ID&nbsp;&nbsp;<TD>02h
+<TR><TD><TD><TD><TD>I/O APIC Address&nbsp;&nbsp;<TD>FEC00000h
+<TR><TD><TD><TD><TD>Global System Interrupt Base&nbsp;&nbsp;<TD>00000000h
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Interrupt Source Override:</B>
+<TR><TD><TD><TD><TD>Шина&nbsp;&nbsp;<TD>ISA
+<TR><TD><TD><TD><TD>Источник&nbsp;&nbsp;<TD>IRQ0
+<TR><TD><TD><TD><TD>Global System Interrupt&nbsp;&nbsp;<TD>00000002h
+<TR><TD><TD><TD><TD>Полярность&nbsp;&nbsp;<TD>Conforms to the specifications of the bus
+<TR><TD><TD><TD><TD>Trigger Mode&nbsp;&nbsp;<TD>Conforms to the specifications of the bus
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Interrupt Source Override:</B>
+<TR><TD><TD><TD><TD>Шина&nbsp;&nbsp;<TD>ISA
+<TR><TD><TD><TD><TD>Источник&nbsp;&nbsp;<TD>IRQ9
+<TR><TD><TD><TD><TD>Global System Interrupt&nbsp;&nbsp;<TD>00000009h
+<TR><TD><TD><TD><TD>Полярность&nbsp;&nbsp;<TD>Active High
+<TR><TD><TD><TD><TD>Trigger Mode&nbsp;&nbsp;<TD>Level-Triggered
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Local APIC NMI:</B>
+<TR><TD><TD><TD><TD>ACPI Processor ID&nbsp;&nbsp;<TD>01h
+<TR><TD><TD><TD><TD>Local ACPI LINT#&nbsp;&nbsp;<TD>01h
+<TR><TD><TD><TD><TD>Полярность&nbsp;&nbsp;<TD>Active High
+<TR><TD><TD><TD><TD>Trigger Mode&nbsp;&nbsp;<TD>Level-Triggered
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Local APIC NMI:</B>
+<TR><TD><TD><TD><TD>ACPI Processor ID&nbsp;&nbsp;<TD>02h
+<TR><TD><TD><TD><TD>Local ACPI LINT#&nbsp;&nbsp;<TD>01h
+<TR><TD><TD><TD><TD>Полярность&nbsp;&nbsp;<TD>Active High
+<TR><TD><TD><TD><TD>Trigger Mode&nbsp;&nbsp;<TD>Level-Triggered
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Local APIC NMI:</B>
+<TR><TD><TD><TD><TD>ACPI Processor ID&nbsp;&nbsp;<TD>03h
+<TR><TD><TD><TD><TD>Local ACPI LINT#&nbsp;&nbsp;<TD>01h
+<TR><TD><TD><TD><TD>Полярность&nbsp;&nbsp;<TD>Active High
+<TR><TD><TD><TD><TD>Trigger Mode&nbsp;&nbsp;<TD>Level-Triggered
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Local APIC NMI:</B>
+<TR><TD><TD><TD><TD>ACPI Processor ID&nbsp;&nbsp;<TD>04h
+<TR><TD><TD><TD><TD>Local ACPI LINT#&nbsp;&nbsp;<TD>01h
+<TR><TD><TD><TD><TD>Полярность&nbsp;&nbsp;<TD>Active High
+<TR><TD><TD><TD><TD>Trigger Mode&nbsp;&nbsp;<TD>Level-Triggered
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ CSRT: Core System Resource Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>CSRT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Core System Resource Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88CA000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>332 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ DSDT: Differentiated System Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>DSDT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Differentiated System Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88B7000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>42655 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>nVIDIA SLI:</B>
+<TR><TD><TD><TD><TD>SLI Certification&nbsp;&nbsp;<TD>Нет
+<TR><TD><TD><TD><TD>PCI 0-0-0-0 (Direct I/O)&nbsp;&nbsp;<TD>8086-0F00  (Intel)
+<TR><TD><TD><TD><TD>PCI 0-0-0-0 (HAL)&nbsp;&nbsp;<TD>8086-0F00  (Intel)
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Lucid Virtu:</B>
+<TR><TD><TD><TD><TD>Virtu Certification&nbsp;&nbsp;<TD>Нет
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ FACP: Fixed ACPI Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>FACP
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Fixed ACPI Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88C9000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>268 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD><TD><TD><TD>FACS Address&nbsp;&nbsp;<TD>B93AE000h / 00000000-00000000h
+<TR><TD><TD><TD><TD>DSDT Address&nbsp;&nbsp;<TD>B88B7000h / 00000000-B88B7000h
+<TR><TD><TD><TD><TD>SMI Command Port&nbsp;&nbsp;<TD>000000B2h
+<TR><TD><TD><TD><TD>PM Timer&nbsp;&nbsp;<TD>00000408h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ FACS: Firmware ACPI Control Structure ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>FACS
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Firmware ACPI Control Structure
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B93AE000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>64 байт
+<TR><TD><TD><TD><TD>Hardware Signature&nbsp;&nbsp;<TD>FB9F126Ch
+<TR><TD><TD><TD><TD>Waking Vector&nbsp;&nbsp;<TD>00000000h
+<TR><TD><TD><TD><TD>Global Lock&nbsp;&nbsp;<TD>00000000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ FBPT: Firmware Basic Boot Performance Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>FBPT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Firmware Basic Boot Performance Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>00000000-B8BDF000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>56 байт
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ FPDT: Firmware Performance Data Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>FPDT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Firmware Performance Data Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88B0000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>68 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000002h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD><TD><TD><TD>FBPT Address&nbsp;&nbsp;<TD>00000000-B8BDF000h
+<TR><TD><TD><TD><TD>S3PT Address&nbsp;&nbsp;<TD>00000000-B91DE000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ HPET: IA-PC High Precision Event Timer Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>HPET
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>IA-PC High Precision Event Timer Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88C8000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>56 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD><TD><TD><TD>HPET Address&nbsp;&nbsp;<TD>00000000-FED00000h
+<TR><TD><TD><TD><TD>Vendor ID&nbsp;&nbsp;<TD>8086h
+<TR><TD><TD><TD><TD>Версия&nbsp;&nbsp;<TD>01h
+<TR><TD><TD><TD><TD>Number of Timers&nbsp;&nbsp;<TD>3
+<TR><TD><TD><TD><TD>Counter Size&nbsp;&nbsp;<TD>64 бит
+<TR><TD><TD><TD><TD>Minimum Clock Ticks&nbsp;&nbsp;<TD>128
+<TR><TD><TD><TD><TD>Page Protection&nbsp;&nbsp;<TD>No Guarantee
+<TR><TD><TD><TD><TD>OEM Attribute&nbsp;&nbsp;<TD>0h
+<TR><TD><TD><TD><TD>LegacyReplacement IRQ Routing&nbsp;&nbsp;<TD>Поддерживается
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ LPIT: Low Power Idle Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>LPIT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Low Power Idle Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88C7000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>260 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Native C-State Instruction Entry Trigger:</B>
+<TR><TD><TD><TD><TD>Идентификатор&nbsp;&nbsp;<TD>0
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD><TD><TD><TD>Minimum Residency&nbsp;&nbsp;<TD>15000 us
+<TR><TD><TD><TD><TD>Worst Case Exit Latency&nbsp;&nbsp;<TD>5000 us
+<TR><TD><TD><TD><TD>Residency Counter Frequency&nbsp;&nbsp;<TD>32768
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Native C-State Instruction Entry Trigger:</B>
+<TR><TD><TD><TD><TD>Идентификатор&nbsp;&nbsp;<TD>1
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD><TD><TD><TD>Minimum Residency&nbsp;&nbsp;<TD>15000 us
+<TR><TD><TD><TD><TD>Worst Case Exit Latency&nbsp;&nbsp;<TD>5000 us
+<TR><TD><TD><TD><TD>Residency Counter Frequency&nbsp;&nbsp;<TD>32768
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Native C-State Instruction Entry Trigger:</B>
+<TR><TD><TD><TD><TD>Идентификатор&nbsp;&nbsp;<TD>2
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD><TD><TD><TD>Minimum Residency&nbsp;&nbsp;<TD>15000 us
+<TR><TD><TD><TD><TD>Worst Case Exit Latency&nbsp;&nbsp;<TD>5000 us
+<TR><TD><TD><TD><TD>Residency Counter Frequency&nbsp;&nbsp;<TD>32768
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Native C-State Instruction Entry Trigger:</B>
+<TR><TD><TD><TD><TD>Идентификатор&nbsp;&nbsp;<TD>3
+<TR><TD><TD><TD><TD>Статус&nbsp;&nbsp;<TD>Разрешено
+<TR><TD><TD><TD><TD>Minimum Residency&nbsp;&nbsp;<TD>15000 us
+<TR><TD><TD><TD><TD>Worst Case Exit Latency&nbsp;&nbsp;<TD>5000 us
+<TR><TD><TD><TD><TD>Residency Counter Frequency&nbsp;&nbsp;<TD>32768
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ MCFG: Memory Mapped Configuration Space Base Address Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>MCFG
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Memory Mapped Configuration Space Base Address Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88C5000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>60 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD><TD><TD><TD>Config Space Address&nbsp;&nbsp;<TD>00000000-E0000000h
+<TR><TD><TD><TD><TD>PCI Segment&nbsp;&nbsp;<TD>0000h
+<TR><TD><TD><TD><TD>Start Bus Number&nbsp;&nbsp;<TD>00h
+<TR><TD><TD><TD><TD>End Bus Number&nbsp;&nbsp;<TD>3Fh
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ RSD PTR: Root System Description Pointer ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>RSD PTR
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Root System Description Pointer
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>000FE020h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>36 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>RSDP Revision&nbsp;&nbsp;<TD>2  (ACPI 2.0+)
+<TR><TD><TD><TD><TD>RSDT Address&nbsp;&nbsp;<TD>B88CE0ACh
+<TR><TD><TD><TD><TD>XSDT Address&nbsp;&nbsp;<TD>00000000-B88CE120h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ RSDT: Root System Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>RSDT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Root System Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88CE0ACh
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>104 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>ACRSYS
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>ACRPRDCT
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>01000013h
+<TR><TD><TD><TD><TD>RSDT Entry #0&nbsp;&nbsp;<TD>B88C9000h  (FACP)
+<TR><TD><TD><TD><TD>RSDT Entry #1&nbsp;&nbsp;<TD>B88CD000h  (UEFI)
+<TR><TD><TD><TD><TD>RSDT Entry #2&nbsp;&nbsp;<TD>B88CB000h  (UEFI)
+<TR><TD><TD><TD><TD>RSDT Entry #3&nbsp;&nbsp;<TD>B88CA000h  (CSRT)
+<TR><TD><TD><TD><TD>RSDT Entry #4&nbsp;&nbsp;<TD>B88C8000h  (HPET)
+<TR><TD><TD><TD><TD>RSDT Entry #5&nbsp;&nbsp;<TD>B88C7000h  (LPIT)
+<TR><TD><TD><TD><TD>RSDT Entry #6&nbsp;&nbsp;<TD>B88C6000h  (APIC)
+<TR><TD><TD><TD><TD>RSDT Entry #7&nbsp;&nbsp;<TD>B88C5000h  (MCFG)
+<TR><TD><TD><TD><TD>RSDT Entry #8&nbsp;&nbsp;<TD>B88C4000h  (SLIC)
+<TR><TD><TD><TD><TD>RSDT Entry #9&nbsp;&nbsp;<TD>B88C3000h  (WDAT)
+<TR><TD><TD><TD><TD>RSDT Entry #10&nbsp;&nbsp;<TD>B88C2000h  (WDRT)
+<TR><TD><TD><TD><TD>RSDT Entry #11&nbsp;&nbsp;<TD>B88B6000h  (SSDT)
+<TR><TD><TD><TD><TD>RSDT Entry #12&nbsp;&nbsp;<TD>B88B5000h  (SSDT)
+<TR><TD><TD><TD><TD>RSDT Entry #13&nbsp;&nbsp;<TD>B88B4000h  (SSDT)
+<TR><TD><TD><TD><TD>RSDT Entry #14&nbsp;&nbsp;<TD>B88B2000h  (SSDT)
+<TR><TD><TD><TD><TD>RSDT Entry #15&nbsp;&nbsp;<TD>B88B1000h  (SSDT)
+<TR><TD><TD><TD><TD>RSDT Entry #16&nbsp;&nbsp;<TD>B88B0000h  (FPDT)
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ S3PT: S3 Performance Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>S3PT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>S3 Performance Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>00000000-B91DE000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>52 байт
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ SLIC: Software Licensing Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>SLIC
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Software Licensing Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88C4000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>374 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>ACRSYS
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>ACRPRDCT
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000001h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ANNI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00000001h
+<TR><TD><TD><TD><TD>Версия SLIC&nbsp;&nbsp;<TD>v2.1
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>OEM Public Key:</B>
+<TR><TD><TD><TD><TD>Key Type&nbsp;&nbsp;<TD>06h
+<TR><TD><TD><TD><TD>Версия&nbsp;&nbsp;<TD>02h
+<TR><TD><TD><TD><TD>Algorithm&nbsp;&nbsp;<TD>00002400h
+<TR><TD><TD><TD><TD>Magic&nbsp;&nbsp;<TD>RSA1
+<TR><TD><TD><TD><TD>Bit Length&nbsp;&nbsp;<TD>1024
+<TR><TD><TD><TD><TD>Exponent&nbsp;&nbsp;<TD>65537
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>SLIC Marker:</B>
+<TR><TD><TD><TD><TD>Версия&nbsp;&nbsp;<TD>00020001h
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>ACRSYS
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>ACRPRDCT
+<TR><TD><TD><TD><TD>Windows Flag&nbsp;&nbsp;<TD>WINDOWS
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ SSDT: Secondary System Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>SSDT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Secondary System Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88B1000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>555 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>IsctTabl
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00001000h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ SSDT: Secondary System Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>SSDT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Secondary System Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88B2000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>5642 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>SIOACPI
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00001000h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ SSDT: Secondary System Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>SSDT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Secondary System Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88B4000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>378 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>ApTst
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00003000h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ SSDT: Secondary System Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>SSDT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Secondary System Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88B5000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>656 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Cpu0Tst
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00003000h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ SSDT: Secondary System Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>SSDT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Secondary System Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88B6000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>1891 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>CpuPm
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00003000h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ UEFI: UEFI ACPI Boot Optimization Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>UEFI
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>UEFI ACPI Boot Optimization Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88CB000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>66 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000000h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ UEFI: UEFI ACPI Boot Optimization Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>UEFI
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>UEFI ACPI Boot Optimization Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88CD000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>566 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000001h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ WDAT: Watchdog Action Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>WDAT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Watchdog Action Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88C3000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>452 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ WDRT: Watchdog Resource Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>WDRT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Watchdog Resource Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>B88C2000h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>71 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>Insyde
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator ID&nbsp;&nbsp;<TD>ACPI
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>00040000h
+<TR><TD>&nbsp;
+<TR><TD><TD CLASS=dt COLSPAN=5>[ XSDT: Extended System Description Table ]
+<TR><TD>&nbsp;
+<TR><TD><TD><TD COLSPAN=3><B>Свойства таблицы ACPI:</B>
+<TR><TD><TD><TD><TD>Подпись ACPI&nbsp;&nbsp;<TD>XSDT
+<TR><TD><TD><TD><TD>Описание таблицы&nbsp;&nbsp;<TD>Extended System Description Table
+<TR><TD><TD><TD><TD>Адрес памяти&nbsp;&nbsp;<TD>00000000-B88CE120h
+<TR><TD><TD><TD><TD>Размер таблицы&nbsp;&nbsp;<TD>172 байт
+<TR><TD><TD><TD><TD>OEM ID&nbsp;&nbsp;<TD>ACRSYS
+<TR><TD><TD><TD><TD>OEM Table ID&nbsp;&nbsp;<TD>ACRPRDCT
+<TR><TD><TD><TD><TD>OEM Revision&nbsp;&nbsp;<TD>00000003h
+<TR><TD><TD><TD><TD>Creator Revision&nbsp;&nbsp;<TD>01000013h
+<TR><TD><TD><TD><TD>XSDT Entry #0&nbsp;&nbsp;<TD>00000000-B88C9000h  (FACP)
+<TR><TD><TD><TD><TD>XSDT Entry #1&nbsp;&nbsp;<TD>00000000-B88CD000h  (UEFI)
+<TR><TD><TD><TD><TD>XSDT Entry #2&nbsp;&nbsp;<TD>00000000-B88CB000h  (UEFI)
+<TR><TD><TD><TD><TD>XSDT Entry #3&nbsp;&nbsp;<TD>00000000-B88CA000h  (CSRT)
+<TR><TD><TD><TD><TD>XSDT Entry #4&nbsp;&nbsp;<TD>00000000-B88C8000h  (HPET)
+<TR><TD><TD><TD><TD>XSDT Entry #5&nbsp;&nbsp;<TD>00000000-B88C7000h  (LPIT)
+<TR><TD><TD><TD><TD>XSDT Entry #6&nbsp;&nbsp;<TD>00000000-B88C6000h  (APIC)
+<TR><TD><TD><TD><TD>XSDT Entry #7&nbsp;&nbsp;<TD>00000000-B88C5000h  (MCFG)
+<TR><TD><TD><TD><TD>XSDT Entry #8&nbsp;&nbsp;<TD>00000000-B88C4000h  (SLIC)
+<TR><TD><TD><TD><TD>XSDT Entry #9&nbsp;&nbsp;<TD>00000000-B88C3000h  (WDAT)
+<TR><TD><TD><TD><TD>XSDT Entry #10&nbsp;&nbsp;<TD>00000000-B88C2000h  (WDRT)
+<TR><TD><TD><TD><TD>XSDT Entry #11&nbsp;&nbsp;<TD>00000000-B88B6000h  (SSDT)
+<TR><TD><TD><TD><TD>XSDT Entry #12&nbsp;&nbsp;<TD>00000000-B88B5000h  (SSDT)
+<TR><TD><TD><TD><TD>XSDT Entry #13&nbsp;&nbsp;<TD>00000000-B88B4000h  (SSDT)
+<TR><TD><TD><TD><TD>XSDT Entry #14&nbsp;&nbsp;<TD>00000000-B88B2000h  (SSDT)
+<TR><TD><TD><TD><TD>XSDT Entry #15&nbsp;&nbsp;<TD>00000000-B88B1000h  (SSDT)
+<TR><TD><TD><TD><TD>XSDT Entry #16&nbsp;&nbsp;<TD>00000000-B88B0000h  (FPDT)
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt>Debug - PCI<TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD><TD>
+<TR><TD><TD><TD>B00 D00 F00:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - Transaction Router [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 00 0F  07 00 00 00  0E 00 00 06  00 00 00 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  86 80 70 72 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>8F 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D02 F00:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - Integrated Graphics Controller [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 31 0F  07 04 10 00  0E 00 00 03  00 00 00 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 00 00 C8  00 00 00 00  08 00 00 C0  00 00 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>51 20 00 00  00 00 00 00  00 00 00 00  86 80 70 72 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  D0 00 00 00  00 00 00 00  00 01 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>11 02 00 00  00 00 00 00  00 00 00 00  01 00 00 BB 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>01 00 E0 BA  07 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>05 B0 01 00  0C 30 E0 FE  B0 49 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>00 00 00 00  13 00 06 03  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>09 00 07 01  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>01 90 22 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 80 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  D1 0F 01 00  10 F0 3A B9 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D13 F00:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - SATA AHCI Controller [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 23 0F  07 00 B0 02  0E 01 06 01  00 00 00 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>49 20 00 00  5D 20 00 00  41 20 00 00  59 20 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>21 20 00 00  00 80 81 C8  00 00 00 00  86 80 70 72 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  80 00 00 00  00 00 00 00  13 01 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>01 A8 03 40  08 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>05 70 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>60 0C 03 81  83 01 00 3C  20 02 DC 22  00 70 00 80 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>F4 00 00 00  00 00 00 00  12 00 10 00  48 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>13 00 06 03  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  1A 0F 0E 01  00 00 00 00 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D14 F00:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - USB 3.0 xHCI Host Controller [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 35 0F  06 04 90 02  0E 30 03 0C  00 00 00 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>04 00 80 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  86 80 70 72 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  70 00 00 00  00 00 00 00  00 01 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>FD 01 04 80  8F C6 CF 03  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>5F 6E CE 0B  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>30 20 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>01 80 C2 C1  08 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>05 00 B7 00  0C 30 E0 FE  00 00 00 00  A8 49 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>00 01 04 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>8F 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>3F 00 00 00  3F 00 00 00  01 00 00 00  01 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>30 2C 00 00  00 00 00 00  00 00 00 00  D8 D8 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  1A 0F 0E 01  00 00 00 00 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D17 F00:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - MIPI-HSI Controller [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 50 0F  06 00 10 00  0E 01 05 08  10 00 00 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 70 81 C8  00 60 81 C8  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  86 80 70 72 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  80 00 00 00  00 00 00 00  17 01 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>01 00 03 48  08 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>01 C8 6C 44  05 00 00 80  00 00 00 01  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  1A 0F 0E 01  00 00 00 00 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D1A F00:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - Trusted Execution Engine [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 18 0F  06 05 10 00  0E 00 80 10  10 00 00 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 00 70 C8  00 00 60 C8  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  86 80 70 72 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  80 00 00 00  00 00 00 00  00 01 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>D5 00 00 1F  00 40 00 80  00 00 00 62  00 00 00 00 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>0C 00 00 00  04 01 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 10  01 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>01 A0 03 48  08 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>05 00 01 00  0C 30 E0 FE  A0 49 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 80  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>09 10 00 00  00 00 00 BF  00 00 00 01  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>08 30 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  1A 0F 0E 01  00 00 00 00 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D1B F00:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - HD Audio Controller [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 04 0F  06 00 10 00  0E 00 03 04  10 00 00 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>04 00 81 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  86 80 70 72 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  50 00 00 00  00 00 00 00  16 01 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>01 00 00 5D  FF FF FF FF  FF FF FF FF  00 00 00 00 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>01 60 42 C8  00 00 00 00  FF FF FF FF  FF FF FF FF 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>05 00 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>10 00 91 00  00 00 00 10  00 08 10 00  FF FF FF FF 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 04 E0 01  02 24 00 4C  00 00 A3 82  10 00 33 02 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 0C A3 02  10 00 33 02  FF FF FF FF  FF FF FF FF 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  1A 0F 0E 01  FF FF FF FF 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D1C F00:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - PCI Express Root Port 1 [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 48 0F  04 00 10 00  0E 00 04 06  10 00 81 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 01 01 00  F0 00 00 20 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  40 00 00 00  00 00 00 00  10 01 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>10 80 42 01  00 80 00 00  00 00 10 00  12 3C 31 01 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>43 00 01 10  60 B2 04 00  08 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>02 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>0D A0 00 00  86 80 70 72  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>01 00 03 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 C0 00 00  42 08 00 00  02 80 11 C9  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  06 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>50 00 00 00  C0 00 00 00  1A 0F 0E 01  00 00 00 01 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D1C F01:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - PCI Express Root Port 2 [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 4A 0F  04 00 10 00  0E 00 04 06  10 00 81 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 02 02 00  F0 00 00 20 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  40 00 00 00  00 00 00 00  11 02 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>10 80 42 01  00 80 00 00  00 00 10 00  12 3C 31 02 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>43 00 01 10  60 B2 0C 00  08 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>02 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>0D A0 00 00  86 80 70 72  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>01 00 03 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 00 00 01  42 08 00 00  02 80 11 C9  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  06 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>50 00 00 00  40 00 00 0C  1A 0F 0E 01  00 00 00 02 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D1C F02:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - PCI Express Root Port 3 [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 4C 0F  07 00 10 00  0E 00 04 06  10 00 81 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 03 03 00  10 10 00 20 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>50 C8 50 C8  41 C8 41 C8  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  40 00 00 00  00 00 00 00  12 03 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>10 80 42 01  00 80 00 00  00 00 10 00  12 3C 31 03 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>40 00 11 70  60 B2 14 00  08 00 40 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>02 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>0D A0 00 00  86 80 70 72  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>01 00 03 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 00 00 01  42 08 00 00  02 80 11 C9  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  04 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>50 00 00 00  40 00 00 0C  1A 0F 0E 01  00 00 00 03 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D1C F03:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - PCI Express Root Port 4 [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 4E 0F  04 00 10 00  0E 00 04 06  10 00 81 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 04 04 00  F0 00 00 20 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  40 00 00 00  00 00 00 00  13 04 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>10 80 42 01  00 80 00 00  00 00 10 00  12 3C 31 04 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>43 00 01 10  60 B2 1C 00  08 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  16 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>02 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>05 90 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>0D A0 00 00  86 80 70 72  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>01 00 03 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 00 00 01  42 08 00 00  02 80 11 C9  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  06 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>50 00 00 00  40 00 00 0C  1A 0F 0E 01  00 00 00 04 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D1F F00:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - Platform Controller Unit - LPC Controller [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 1C 0F  07 01 10 02  0E 00 01 06  00 00 80 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  86 80 70 72 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  E0 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>03 04 00 00  02 30 D0 FE  03 05 00 00  02 C0 D0 FE 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>02 80 D0 FE  02 10 D0 FE  02 00 F0 FE  02 50 D0 FE 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  CF FF 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>09 00 0C 10  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>01 C0 D1 FE  00 00 00 00  1A 0F 0E 01  03 03 00 00 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B00 D1F F03:&nbsp;&nbsp;<TD>Intel Bay Trail SoC - Platform Controller Unit - SMBus Host Controller [C0]
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>86 80 12 0F  03 00 90 02  0E 00 05 0C  00 00 00 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>00 50 81 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>01 20 00 00  00 00 00 00  00 00 00 00  86 80 70 72 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  50 00 00 00  00 00 00 00  0F 02 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>01 00 03 00  08 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>03 04 04 00  00 00 08 08  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  1A 0F 0E 01  03 01 00 00 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>B03 D00 F00:&nbsp;&nbsp;<TD>Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>EC 10 68 81  07 04 10 00  07 00 00 02  10 00 00 00 
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>01 10 00 00  00 00 00 00  04 00 50 C8  00 00 00 00 
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>0C 00 40 C8  00 00 00 00  00 00 00 00  EC 10 23 01 
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  40 00 00 00  00 00 00 00  00 01 00 00 
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>01 50 C3 FF  08 01 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>05 70 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>10 B0 02 02  C0 8C 90 05  10 50 10 00  11 7C 07 00 
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>40 00 11 10  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>00 00 00 00  1F 00 00 00  10 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>11 D0 03 80  04 00 00 00  04 08 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>03 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+<TR><TD>&nbsp;
+<TR><TD><TD><TD>PCI-8086-0F1C:&nbsp;&nbsp;<TD>Intel BYT PUBASE
+<TR><TD><TD><TD>&nbsp;&nbsp;<TD>
+<TR><TD><TD><TD>  Offset 000:&nbsp;&nbsp;<TD>00 0C 08 00  00 00 00 BC  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 010:&nbsp;&nbsp;<TD>1B 00 00 00  03 01 00 00  40 01 03 40  00 80 02 00
+<TR><TD><TD><TD>  Offset 020:&nbsp;&nbsp;<TD>00 00 02 00  00 00 02 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 030:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 80 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 040:&nbsp;&nbsp;<TD>00 02 00 00  EF C2 01 00  A4 27 00 00  AA AA 02 00
+<TR><TD><TD><TD>  Offset 050:&nbsp;&nbsp;<TD>75 01 00 00  00 00 F0 07  66 04 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 060:&nbsp;&nbsp;<TD>00 00 00 21  00 00 00 21  02 00 01 21  12 00 00 21
+<TR><TD><TD><TD>  Offset 070:&nbsp;&nbsp;<TD>FF FF FF 00  00 00 00 00  0F 00 00 00  FF 00 00 00
+<TR><TD><TD><TD>  Offset 080:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 090:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 02 00
+<TR><TD><TD><TD>  Offset 0A0:&nbsp;&nbsp;<TD>00 00 02 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 0B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 0C0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  03 00 00 03  00 00 00 0B
+<TR><TD><TD><TD>  Offset 0D0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  3F 80 00 BF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 0E0:&nbsp;&nbsp;<TD>FF FF FF FF  03 00 00 03  00 00 00 0B  00 00 00 00
+<TR><TD><TD><TD>  Offset 0F0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  00 00 00 00  FF FF FF FF
+<TR><TD><TD><TD>  Offset 100:&nbsp;&nbsp;<TD>F6 09 00 00  F1 09 00 00  EF 09 00 00  17 77 00 00
+<TR><TD><TD><TD>  Offset 110:&nbsp;&nbsp;<TD>37 DC 85 25  FF FF FF FF  FF FF FF FF  00 88 00 00
+<TR><TD><TD><TD>  Offset 120:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 130:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 140:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 150:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 160:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 170:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 180:&nbsp;&nbsp;<TD>00 00 F0 00  0F 00 F0 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 190:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 1A0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  FF FF FF FF
+<TR><TD><TD><TD>  Offset 1B0:&nbsp;&nbsp;<TD>FF FF FF FF  00 00 00 00  FF FF FF FF  00 00 00 00
+<TR><TD><TD><TD>  Offset 1C0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 1D0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 1E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 1F0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 200:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 210:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  FF FF FF FF
+<TR><TD><TD><TD>  Offset 220:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 230:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 240:&nbsp;&nbsp;<TD>D6 DC 23 93  E3 EE 66 D6  80 EF 55 51  B0 6C E4 45
+<TR><TD><TD><TD>  Offset 250:&nbsp;&nbsp;<TD>B2 52 6A 07  10 04 00 00  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 260:&nbsp;&nbsp;<TD>0E 00 00 0F  FF FF FF FF  FF FF FF FF  00 00 00 00
+<TR><TD><TD><TD>  Offset 270:&nbsp;&nbsp;<TD>00 00 00 00  FF FF FF FF  FF FF FF FF  00 00 00 00
+<TR><TD><TD><TD>  Offset 280:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 290:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 2A0:&nbsp;&nbsp;<TD>71 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 2B0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 2C0:&nbsp;&nbsp;<TD>03 00 00 00  BF BE 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 2D0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 2E0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 2F0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 300:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 310:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 320:&nbsp;&nbsp;<TD>00 00 00 00  00 04 00 00  00 00 00 00  FF FF FF FF
+<TR><TD><TD><TD>  Offset 330:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  88 01 7B 8F  E9 8E 00 00
+<TR><TD><TD><TD>  Offset 340:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  08 CF 00 00  BF 00 00 00
+<TR><TD><TD><TD>  Offset 350:&nbsp;&nbsp;<TD>D6 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 360:&nbsp;&nbsp;<TD>D0 D6 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 370:&nbsp;&nbsp;<TD>D5 00 00 00  58 22 F8 62  E9 8E 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 380:&nbsp;&nbsp;<TD>FF FF FF FF  00 00 00 00  00 00 00 00  42 BD 00 00
+<TR><TD><TD><TD>  Offset 390:&nbsp;&nbsp;<TD>E3 BC 00 00  BD BC 00 00  B7 D6 08 00  6F DD 57 C6
+<TR><TD><TD><TD>  Offset 3A0:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  FF FF FF FF
+<TR><TD><TD><TD>  Offset 3B0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  00 00 00 00
+<TR><TD><TD><TD>  Offset 3C0:&nbsp;&nbsp;<TD>00 00 00 00  FF FF FF FF  FF FF FF FF  A3 00 01 00
+<TR><TD><TD><TD>  Offset 3D0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 3E0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 3F0:&nbsp;&nbsp;<TD>FF FF FF FF  FF FF FF FF  FF FF FF FF  FF FF FF FF
+<TR><TD><TD><TD>  Offset 400:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 410:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 420:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+<TR><TD><TD><TD>  Offset 430:&nbsp;&nbsp;<TD>00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+</TABLE><BR><BR>
+
+<TABLE WIDTH=100%><TD CLASS=pt>Debug - Video BIOS<TR><TD><HR></TABLE><TABLE><TR><TD WIDTH=16>&nbsp;<TD WIDTH=16><TD><TD>
+<TR><TD><TD><TD>C000:0000&nbsp;&nbsp;<TD>U.l...000000000000.....J@...00IBM VGA Compatible BIOS. .Z.j.x...
+<TR><TD><TD><TD>C000:0040&nbsp;&nbsp;<TD>PCIR..1.................................t.............\.........
+<TR><TD><TD><TD>C000:0080&nbsp;&nbsp;<TD>...................................d......d......d.....0d......d
+<TR><TD><TD><TD>C000:00C0&nbsp;&nbsp;<TD>......d......d......d.....0d......d.....0d......d......d......d.
+<TR><TD><TD><TD>C000:0100&nbsp;&nbsp;<TD>.....d.....0d......d......d.....0$......$......d.......... ....`
+<TR><TD><TD><TD>C000:0140&nbsp;&nbsp;<TD>".......N... ....@............ ...88.......... .1X. (.........V.
+<TR><TD><TD><TD>C000:0180&nbsp;&nbsp;<TD> .1X. .P.......... .0X.  @........d..@A.&0..6.......... A. 0.`..
+<TR><TD><TD><TD>C000:01C0&nbsp;&nbsp;<TD>.......$.`A.(00`........0*..Q.*@0p.........4..Q.*@...........=..
+<TR><TD><TD><TD>C000:0200&nbsp;&nbsp;<TD>Q.0@@.........H?@0b.2@@..........O@0b.2@@..........Y@0b.2@@.....
+<TR><TD><TD><TD>C000:0240&nbsp;&nbsp;<TD>....h[..r.&lt;P...........t..r.&lt;P..........0.6..2.l..4....8....:...
+<TR><TD><TD><TD>C000:0280&nbsp;&nbsp;<TD>.&lt;.D..A.6..C.l..E....I....K....M.D..P 6..R l..T ...X ...Z ...\ D
+<TR><TD><TD><TD>C000:02C0&nbsp;&nbsp;<TD>..`....a....b ...c....d....e ...f....g....h ...i....j....k ...l.
+<TR><TD><TD><TD>C000:0300&nbsp;&nbsp;<TD>...m....n ...o.9..p.9..q 9......................................
+<TR><TD><TD><TD>C000:0340&nbsp;&nbsp;<TD>........................................................For Eval
+<TR><TD><TD><TD>C000:0380&nbsp;&nbsp;<TD>uation Use Only....(........c-'(.+..............................
+<TR><TD><TD><TD>C000:03C0&nbsp;&nbsp;<TD>...................(........c-'(.+..............................
+</TABLE><BR><BR>
+
+<HR>
+<BR>
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.<BR>
+</BODY>
+</HTML>
